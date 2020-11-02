@@ -8,24 +8,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void printArray(vector<int> arr) {
-    for (int i=0; i<arr.size(); i++)
-        cout << arr[i] << " ";
-    cout << endl;
-}
-
-int bs(vector<int> arr, int low, int high, int key) {
-    if (low <= high) {
-        int mid = low + (high-low)/2;
-        if (arr[mid] == key)
-            return mid;
-        if (arr[mid] < key)
-            return bs(arr, low, mid-1, key);
-        return bs(arr, mid+1, high, key);
-    }
-    return -1;
-}
-
 // this method has complexity of O(log N)
 int logN_Answer(int n) {
     return int(sqrt(n));
