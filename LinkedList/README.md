@@ -1,4 +1,4 @@
-* __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Common-Elements-3-Array.cpp)__
+* __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Cycle-Detection.cpp)__
     
     ![Cycle Detection Image](https://www.geeksforgeeks.org/wp-content/uploads/2009/04/Linked-List-Loop.gif)
     ```CPP
@@ -8,6 +8,21 @@
     ![Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
     ```CPP
     Output: LOOP NOT FOUND 
+    ```
+
+<BR/>
+
+* __[LOOP DETECTION AND DELETION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Loop-Detection-Deletion.cpp)__
+    
+    ![Cycle Detection Image](https://www.geeksforgeeks.org/wp-content/uploads/2009/04/Linked-List-Loop.gif)
+    ```CPP
+    Output: LOOP FOUND
+            Linked List: 1->2->3->4->5->NULL
+    ```
+
+    ![Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
+    ```CPP
+    Output: LOOP NOT FOUND
     ```
 
 <BR/>
@@ -26,4 +41,14 @@
     Input: 1->2->3->4->NULL 
     Output: 4->3->2->1->NULL
     ```
+<BR/>
+
+* __[STARTING POINT OF THE LOOP](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Starting-Point-Loop.cpp)__
+    
+    ![Cycle Detection Image](https://www.geeksforgeeks.org/wp-content/uploads/2009/04/Linked-List-Loop.gif)
+    ```CPP
+    Output: LOOP FOUND
+            Starting Point: 2
+    ```
+
 <BR/>

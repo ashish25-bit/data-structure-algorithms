@@ -28,15 +28,24 @@ int main() {
     vector<int> arr = inputArray(n);
     vector<int> res;
 
-    for (int i=0; i<n; i++) {
-        if (i+1 == arr[i]) 
-            res.push_back(arr[i]);
+    vector<int> hashMap(n+1, 0);
+    int f=-1, s=-1;
+    
+    for (int i=0; i<n; i++)
+        ++hashMap[arr[i]];
+        
+    for (int i=1; i<=n; i++) {
+        if (f==-1 && hashMap[i] == 0) 
+            f = i;
+            
+        if (s==-1 && hashMap[i] == 2) 
+            s = i;
+            
+        if (s != -1 && f != -1)
+            break;
     }
 
-    if (res.size()) 
-        printArray(res);
-    else 
-        cout << "No Fixed Point";
+    cout << "Repeating: " s << " Missing: " << f; 
 
     return 0;
 }

@@ -2,8 +2,6 @@
 
     Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
 
-    There is only one duplicate number in nums, return this duplicate number.
-
     ```CPP
     Input: n1 = 6; A = {1, 5, 10, 20, 40, 80}
            n2 = 5; B = {6, 7, 20, 80, 100}
@@ -22,6 +20,19 @@
     ```CPP
     Input: nums = [1, 3, 4, 2, 2]
     Output: 2
+    ```
+<BR/>
+
+* __[MERGE ARRAY WITHOUT EXTRA SPACE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Array.cpp)__ 
+
+    Given two sorted arrays ar1[] of size N and ar2[] of size M. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
+
+    ```CPP
+    Input  : N = 4, M = 5
+             ar1[] = {1, 3, 5, 7}
+             ar2[] = {0, 2, 6, 8, 9}
+    Output : ar1[] = {0, 1, 2, 3}
+             ar2[] = {5, 6, 7, 8, 9}
     ```
 <BR/>
 
@@ -101,18 +112,5 @@
              arr = 3, 1, 2, 2, 1, 2, 3, 3
              k = 4
     Output : 2 3
-    ```
-<BR/>
-
-* __[MERGE ARRAY WITHOUT EXTRA SPACE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Array.cpp)__ 
-
-    Given two sorted arrays ar1[] of size N and ar2[] of size M. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
-
-    ```CPP
-    Input  : N = 4, M = 5
-             ar1[] = {1, 3, 5, 7}
-             ar2[] = {0, 2, 6, 8, 9}
-    Output : ar1[] = {0, 1, 2, 3}
-             ar2[] = {5, 6, 7, 8, 9}
     ```
 <BR/>

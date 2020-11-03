@@ -31,13 +31,8 @@ int main() {
 
     unordered_map<int, int> hashMap;
 
-    for (int x: ar) {
-        auto it = hashMap.find(x);
-        if (it == hashMap.end())
-            hashMap[x] = 1;
-        else
-            it->second = it->second + 1;
-    }
+    for (int i=0; i<ar.size(); i++)
+        hashMap[ar[i]]++;
 
     k = n/k;
 
