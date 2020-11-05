@@ -15,15 +15,32 @@
 
     Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 
-    There is only one duplicate number in nums, return this duplicate number.
+    There is __only one duplicate__ number in nums, return this duplicate number.
 
     ```CPP
-    Input: nums = [1, 3, 4, 2, 2]
+    Input: n = [1, 3, 4, 2, 2]
     Output: 2
     ```
 <BR/>
 
-* __[MERGE ARRAY WITHOUT EXTRA SPACE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Array.cpp)__ 
+* __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
+
+    Given an array arr of n integers. Find the contiguous sub-array with maximum sum.
+
+    ```CPP
+    Input: n = 5
+           arr = { 1 2 3 -2 5 }
+    Output: 9
+
+    Input: n = 4
+           arr = { -1 -2 -3 -4 }
+    Output: -1
+    ```
+<BR/>
+
+* __[MERGE ARRAY WITHOUT EXTRA SPACE [METHOD 1]](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Array.cpp)__ 
+
+    #### Time Complexity: O(N*M)
 
     Given two sorted arrays ar1[] of size N and ar2[] of size M. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
 
@@ -50,21 +67,24 @@
 * __[NEGATIVE ELEMENTS ONE SIDE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Negative-One-Side.cpp)__
 
     Move all negative numbers to beginning and positive to end with constant extra space.
+    __Note: Order of elements is not important here.__
 
     ```CPP
-    Input  : arr[] = { 1000, 11, 445, 1, 330, 3000 }
-    Output : Minimum element is 1
-             Maximum element is 3000
+    Input  : n = 5
+             arr[] = { 5 4 -1 -2 3}
+    Output : -1 -2 5 4 3
     ```
 <BR/>
 
-* __[REVERSE AN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Reverse.cpp)__
+* __[NUMBER FREQUENCY GREATER THAN K](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Number-Freqency-Greater-Than-K.cpp)__ 
 
-    Write a program to reverse an array or string
+    Given an array of size n and a number k, find all elements that appear more than n/k times
 
     ```CPP
-    Input  : arr[] = {1, 2, 3}
-    Output : arr[] = {3, 2, 1}
+    Input  : n = 8
+             arr = 3, 1, 2, 2, 1, 2, 3, 3
+             k = 4
+    Output : 2 3
     ```
 <BR/>
 
@@ -79,6 +99,27 @@
     ```
 <BR/>
 
+* __[REVERSE AN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Reverse.cpp)__
+
+    Write a program to reverse an array or string
+
+    ```CPP
+    Input  : arr[] = {1, 2, 3}
+    Output : arr[] = {3, 2, 1}
+    ```
+<BR/>
+
+* __[SEGREGATE POSITIVE AND NEGATIVE NUMBERS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Segregate-Positive-Negative-Numbers.cpp)__
+
+    Given an array of positive and negative numbers, arrange them in an alternate fashion such that every positive number is followed by negative and vice-versa. __Order of elements in output doesn’t matter.__
+
+    ```CPP
+    Input  : 10
+             arr[] = {-5, 3, 4, 5, -6, -2, 8, 9, -1, -4}
+    Output : -5 4 -2 8 -4 9 -1 5 -6 3
+    ```
+<BR/>
+
 * __[SORT012](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sort012.cpp)__
 
     Given an array A of size N containing 0s, 1s, and 2s; you need to sort the array in ascending order without using a sorting algo.
@@ -87,6 +128,39 @@
     Input  : 5
              0 2 1 2 0
     Output : 0 0 1 2 2
+    ```
+<BR/>
+
+* __[SUBARRAY SUM EQUALS ZERO](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subarray-Sum-Zero.cpp)__
+
+    Given an array arr[] of n positive and negative numbers. Find if there is a subarray (of size at-least one) with 0 sum.
+
+    ```CPP
+    Input  : n = 18
+             arr = 43 6 -39 -8 -21 23 -29 -31 34 -13 48 -26 -35 20 -37 -24 41 30
+    Output : Yes
+
+    Input  : n = 7
+             arr = 23 12 20 46 31 -45 -25
+
+    Output : No
+    ```
+<BR/>
+
+* __[SUBSET ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subset-Array.cpp)__
+
+    Given two arrays: arr1[0..n1-1] of size n1 and arr2[0..n2-1] of size n2. Task is to check whether arr2[] is a subset of arr1[] or not. Both the arrays can be both unsorted or sorted. It may be assumed that elements in both array are distinct.
+
+    ```CPP
+    Input  : n1 = 6 , n2 = 4
+             arr1 = {11 1 13 21 3 7}
+             arr2 = {11 3 7 1}
+    Output : Yes
+
+    Input  : n1 = 5 , n2 = 3
+             arr1 = {10 5 2 23 19}
+             arr2 = {19 5 3}
+    Output : No
     ```
 <BR/>
 
@@ -101,16 +175,4 @@
              Intersection Array: 2 5
     ```
 
-<BR/>
-
-* __[NUMBER FREQUENCY GREATER THAN K](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Number-Freqency-Greater-Than-K.cpp)__ 
-
-    Given an array of size n and a number k, find all elements that appear more than n/k times
-
-    ```CPP
-    Input  : n = 8
-             arr = 3, 1, 2, 2, 1, 2, 3, 3
-             k = 4
-    Output : 2 3
-    ```
 <BR/>

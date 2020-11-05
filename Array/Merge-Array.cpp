@@ -28,9 +28,8 @@ int main() {
 
     int i=0;
     while (i<n) {
-        if (ar1[i] < ar2[0])
-            i++;
-        else {
+        
+        if (ar1[i] > ar2[0]) {
             int temp = ar1[i];
             ar1[i] = ar2[0];
             ar2[0] = temp;
@@ -49,6 +48,7 @@ int main() {
             if (j == m)
                 ar2[m-1] = k;
         }
+        i++;
     }
 
     cout << "Array 1: ";
