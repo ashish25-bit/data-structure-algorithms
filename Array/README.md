@@ -176,3 +176,19 @@
     ```
 
 <BR/>
+
+* __[MOVE ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
+
+   Given an array arr[] of n positive integers. Push all the zero’s of the given array to the right end of the array while maitaining the order of non-zero elements.
+
+    ```CPP
+    Input  : n = 5
+             arr: 0 0 0 0 4
+    Output : 4 0 0 0 0
+
+    Input  : n = 7
+             arr: 4 0 1 0 0 2 3
+    Output : 4 1 2 3 0 0 0
+    ```
+
+<BR/>
