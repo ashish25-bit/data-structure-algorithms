@@ -1,3 +1,29 @@
+* __[BEST TIME TO SEL STOCK](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Best-Time-To-Sell-Stock.cpp)__
+
+    Say you have an array for which the ith element is the price of a given stock on day i.
+
+    If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+
+    Note that you cannot sell a stock before you buy one.
+    n: Number of days
+    arr: Price at each day
+
+    ```CPP
+    Input: n = 6
+           arr = 7 6 5 4 2 1
+    Output: Max Profit: 0
+
+    Input: n = 3
+           arr = 2 4 1
+    Output: Max Profit: 2
+
+    Input: n = 6
+           arr = 7 1 5 3 6 4
+    Output: Max Profit: 5
+    ```
+
+<BR/>
+
 * __[COMMON ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Common-Elements-3-Array.cpp)__
 
     Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
