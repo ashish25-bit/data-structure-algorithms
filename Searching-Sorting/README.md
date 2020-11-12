@@ -9,6 +9,25 @@
     ```
 <BR/>
 
+* __[FIRST AND LAST OCCURENCE OF X](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/First-And-Last-Occurrences-Of-Xcpp)__
+
+    Given a sorted array with possibly duplicate elements, the task is to find indexes of first and last occurrences of an element x in the given array.
+
+    ```CPP
+    Input:  n = 9 x = 5
+            arr[] = {1 3 5 5 5 5 67 123 125}
+    Output: 2 5
+
+    Input:  n = 9 x = 7
+            arr[] = {1 3 5 5 5 5 7 123 125}
+    Output: 6 6
+
+    Input:  n = 9 x = 5
+            arr[] = {1 3 4 4 4 4 67 123 125}
+    Output: -1
+    ```
+<BR/>
+
 * __[FIXED POINT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Fixed-Point.cpp)__
 
     Given an array arr of n positive integers. Your task is to find the elements whose value is equal to that of its index value.
@@ -32,6 +51,18 @@
     Input: n = 3
            arr = 1 2 3
     Output: No Majority Element
+    ```
+<BR/>
+
+* __[SEARCH IN A ROTATED ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Search-In-Rotated-Sorted-Array.cpp)__
+
+    You are given an integer array nums sorted in ascending order of size n, and an integer target.
+
+    ```CPP
+    Input:  n = 7
+            nums = 4 5 6 7 0 1 2
+            target = 0
+    Output: 4
     ```
 <BR/>
 

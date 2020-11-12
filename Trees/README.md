@@ -53,6 +53,18 @@
 
 <BR/>
 
+* __[5-TRAVERSAL REVERSE LEVEL ORDER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/4-Traversal-Reverse-Level-Order.cpp)__
+
+    Given a binary tree of size n, find its reverse level order traversal. ie- the traversal must begin from the last level.  
+    ###### NOTE: IN THIS SOLUTION THE NODES WILL BE INSERTED IN LEVEL ORDER FASHION
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/BSTSearch.png)
+    ```CPP
+    Output: 4 7 13 1 6 14 3 10 8
+    ```
+
+<BR/>
+
 * __[HEIGHT OF A TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Height.cpp)__
 
     Given a binary tree, find its height

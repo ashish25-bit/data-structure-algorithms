@@ -12,6 +12,35 @@
 
 <BR/>
 
+* __[INTERSECTING NODES OF 2 SORTED LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Intersection-Nodes-Of-Sorted-LL.cpp)__
+
+    Given two lists sorted in increasing order, create a new list representing the intersection of the two lists. The new list should be made with its own memory — the original lists should not be changed.
+
+    ```CPP
+    Input:  L1 = 1->2->3->4->6->NULL
+            L2 = 2->4->6->8->NULL
+    Output: 2->4->6->NULL
+    ```
+
+<BR/>
+
+* __[INTERSECTION POINT OF Y SHAPED LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Intersection-Point-Y-Shapped-LL.cpp)__
+
+    Given two singly linked lists of size N and M, write a program to get the point where two linked lists intersect each other.
+    If linked list do not merge at any point, then it should return -1.
+
+    ![Tree](https://contribute.geeksforgeeks.org/wp-content/uploads/linked.jpg)
+
+
+    ```CPP
+    Input:  LinkList1 = 3->6->9->common
+            LinkList2 = 10->common
+            common = 15->30->NULL
+    Output: 15
+    ```
+
+<BR/>
+
 * __[LOOP DETECTION AND DELETION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Loop-Detection-Deletion.cpp)__
     
     ![Cycle Detection Image](https://www.geeksforgeeks.org/wp-content/uploads/2009/04/Linked-List-Loop.gif)

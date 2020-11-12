@@ -49,6 +49,21 @@
     ```
 <BR/>
 
+* __[FIND PAIR WITH GIVEN DIFFERENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Pair-Given-Difference.cpp)__
+
+    Given an unsorted array arr[] and a number n. You need to write a program to find if there exists a pair of elements in the array whose difference is k.
+
+    ```CPP
+    Input:  n = 6 k = 78
+            arr = 5 20 3 2 5 80
+    Output: 1
+
+    Input:  n = 5 k = 45
+            arr = 90 70 20 80 50
+    Output: -1
+    ```
+<BR/>
+
 * __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
 
     Given an array arr of n integers. Find the contiguous sub-array with maximum sum.
