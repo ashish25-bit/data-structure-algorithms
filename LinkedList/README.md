@@ -12,6 +12,20 @@
 
 <BR/>
 
+* __[FIND MEDIAN ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Find-Median-Element.cpp)__
+
+    Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+
+    If there are two middle nodes, return the second middle node.
+
+    ```CPP
+    Input:  [1,2,3,4,5]
+    Output: Node 3 from this list (Serialization: [3,4,5])
+            The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
+    ```
+
+<BR/>
+
 * __[INTERSECTING NODES OF 2 SORTED LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Intersection-Nodes-Of-Sorted-LL.cpp)__
 
     Given two lists sorted in increasing order, create a new list representing the intersection of the two lists. The new list should be made with its own memory — the original lists should not be changed.

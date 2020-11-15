@@ -66,6 +66,18 @@
     ```
 <BR/>
 
+* __[SORT N INTEGER ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Sort-N-Interger-Array.cpp)__
+
+    Given an array of size n.
+    Sort the array if the elements range from __1 <= a[i] <= n__.
+
+    ```CPP
+    Input:  n = 5
+            a = [5, 1, 2, 4, 3]
+    Output: 1 2 3 4 5
+    ```
+<BR/>
+
 * __[SQUARE ROOT OF AN INTEGER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Square-Root-Of-An-Integer.cpp)__
 
     Consider a sample space S consisting of all perfect squares starting from 1, 4, 9 and so on. You are given a number N, you have to output the number of integers less than N in the sample space S.

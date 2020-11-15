@@ -37,6 +37,17 @@
 
 <BR/>
 
+* __[COUNT PAIRS WITH GIVEN SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Count-Pairs-With-Given-Sum.cpp)__
+
+    Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose sum is equal to K.
+
+    ```CPP
+    Input:  N = 4, K = 6
+            arr[] = {1, 5, 7, 1}
+    Output: 2
+    ```
+<BR/>
+
 * __[FND THE DUPLICATE NUMBER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Duplicate-Element(Only-One).cpp)__
 
     Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
@@ -46,6 +57,45 @@
     ```CPP
     Input: n = [1, 3, 4, 2, 2]
     Output: 2
+    ```
+<BR/>
+
+* __[FND MEDIAN OF 2 SORTED ARRAY OF EQUAL SIZE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Median-2-Sorted-Array-Equal-Size.cpp)__
+
+    Given 2 sorted arrays of size n. Find the median.
+
+    ```CPP
+    Input:  arr1 = [1, 2, 3]
+            arr2 = [4, 5, 6]
+    Output: 3
+    ```
+<BR/>
+
+* __[FND MEDIAN OF 2 SORTED ARRAY OF UNEQUAL SIZE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Median-2-Sorted-Array-Unequal-Size.cpp)__
+
+    Given 2 sorted arrays of size n and m. Find the median.
+
+    ```CPP
+    Input:  n = 3, m = 5
+            arr1 = [1, 3, 5]
+            arr2 = [2, 4, 6, 8, 9]
+    Output: 3
+
+    Input:  n = 3, m = 4
+            arr1 = [1, 3, 10]
+            arr2 = [2, 4, 6, 8]
+    Output: 4
+    ```
+<BR/>
+
+* __[FIND MEDIAN](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Median-Array.cpp)__
+
+    Given an array arr[] of N integers, calculate the median
+
+    ```CPP
+    Input:  N = 5
+            arr[] = 90 100 78 89 67
+    Output: 89
     ```
 <BR/>
 
