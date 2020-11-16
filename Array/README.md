@@ -24,6 +24,21 @@
 
 <BR/>
 
+* __[CHOCOLATE DISTRIBUTION PROBLEM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Chocolate-Distribution-Problem.cpp)__
+
+    Given an array A of positive integers of size N, where each value represents number of chocolates in a packet. Each packet can have variable number of chocolates. There are M students, the task is to distribute chocolate packets such that :
+    * Each student gets one packet.
+    * The difference between the number of chocolates given to the students having packet with maximum chocolates and student having packet with minimum chocolates is minimum.
+    ###### NOTE: Time Complexity: m + n * log n
+
+    ```CPP
+    Input:  n = 8, m = 5
+            A[] = 3 4 1 9 56 7 9 12
+    Output: 6
+    ```
+
+<BR/>
+
 * __[COMMON ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Common-Elements-3-Array.cpp)__
 
     Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
@@ -114,6 +129,18 @@
     ```
 <BR/>
 
+* __[LONGEST CONSECUTIVE SUBSEQUENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Longest-Consecutive-Subsequence.cpp)__
+
+    Given an array of positive integers. Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, __the consecutive numbers can be in any order__.
+
+    ```CPP
+    Input:  N = 7
+            a[] = {2,6,1,9,4,5,3}
+    Output: 6
+
+    ```
+<BR/>
+
 * __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
 
     Given an array arr of n integers. Find the contiguous sub-array with maximum sum.
@@ -141,6 +168,19 @@
              ar2[] = {0, 2, 6, 8, 9}
     Output : ar1[] = {0, 1, 2, 3}
              ar2[] = {5, 6, 7, 8, 9}
+    ```
+<BR/>
+
+* __[MERGE INTERVALS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Intervals.js)__
+
+    Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+    ```CPP
+    Input:  intervals = [[1,3], [2,6], [8,10], [15,18]]
+    Output: [[1,6], [8,10], [15,18]]
+
+    Input:  intervals = [[1,4], [4,5]]
+    Output: [[1,5]]
     ```
 <BR/>
 
@@ -253,6 +293,31 @@
              arr2 = {19 5 3}
     Output : No
     ```
+<BR/>
+
+
+* __[THREE WAY PARTITIONING(1)](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Three-Way-Partitioning.cpp)__
+
+    Given an array of size N and a range [a, b]. The task is to partition the array around the range such that array is divided into three parts.
+    * All elements smaller than a come first.
+    * All elements in range a to b come next.
+    * All elements greater than b appear in the end.
+    The individual elements of three sets can appear in any order. You are required to return the modified array.
+    
+    ###### NOTE: Space Complexity: O(N)
+
+    ```CPP
+    Input:  N = 5
+            A[] = {1, 2, 3, 3, 4}
+            [a, b] = [1, 2]
+    Output : {1, 2, 3, 3, 4}
+
+    Input:  N = 3 
+            A[] = {1, 2, 3}
+            [a, b] = [1, 3]
+    Output : {1, 2, 3}
+    ```
+
 <BR/>
 
 * __[UNION AND INTERSECTION OF TWO  ARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Union-Intersection-Sorted-Array.cpp)__
