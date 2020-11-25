@@ -25,27 +25,27 @@ int main() {
     cout << "Enter values for n \t";
     cin >> n;
 
-    vector<int> arr = inputArray(n);
-    vector<int> res;
+    vector<int> a = inputArray(n);
 
-    vector<int> hashMap(n+1, 0);
-    int f=-1, s=-1;
+    int duplicate;
+    int missing;
+
+    for (int i=0; i<n; i++) {
+        int numP = abs(a[i]);
+        if (a[numP - 1] < 0)
+            duplicate = abs(a[i]);
+        else 
+            a[numP-1] = -a[numP-1];
+    }
     
-    for (int i=0; i<n; i++)
-        ++hashMap[arr[i]];
-        
-    for (int i=1; i<=n; i++) {
-        if (f==-1 && hashMap[i] == 0) 
-            f = i;
-            
-        if (s==-1 && hashMap[i] == 2) 
-            s = i;
-            
-        if (s != -1 && f != -1)
+    for (int  i=0; i<n ;i++) {
+        if (a[i] > 0) {
+            missing = i + 1;
             break;
+        }
     }
 
-    cout << "Repeating: " << s << " Missing: " << f;
+    cout << "Repeating: " << duplicate << " Missing: " << missing;
 
     return 0;
 }

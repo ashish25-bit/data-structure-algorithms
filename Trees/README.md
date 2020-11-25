@@ -53,7 +53,7 @@
 
 <BR/>
 
-* __[5-TRAVERSAL REVERSE LEVEL ORDER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/4-Traversal-Reverse-Level-Order.cpp)__
+* __[5-TRAVERSAL REVERSE LEVEL ORDER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/5-Traversal-Reverse-Level-Order.cpp)__
 
     Given a binary tree of size n, find its reverse level order traversal. ie- the traversal must begin from the last level.  
     ###### NOTE: IN THIS SOLUTION THE NODES WILL BE INSERTED IN LEVEL ORDER FASHION
@@ -61,6 +61,43 @@
     ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/BSTSearch.png)
     ```CPP
     Output: 4 7 13 1 6 14 3 10 8
+    ```
+
+<BR/>
+
+* __[6-TRAVERSAL DIAGONAL](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/6-Traversal-Diagonal.cpp)__
+
+    Consider lines of slope -1 passing between nodes. Given a Binary Tree, print all diagonal elements in a binary tree belonging to the same line.
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/d1-1.png)
+
+    ```CPP
+    Output: 8 10 14 3 6 7 13 1 4
+    ```
+
+<BR/>
+
+* __[7-TRAVERSAL ZIZ-ZAG](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/6-Traversal-Zig-Zag.cpp)__
+
+   Given a Binary Tree. Find the Zig-Zag Level Order Traversal of the Binary Tree.
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/20200124141533/Untitled-Diagram65.jpg)
+
+    ```CPP
+    Output: 1 3 2 4 6 5 7 
+    ```
+
+<BR/>
+
+* __[BALANCED TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Balanced-Tree.cpp)__
+
+    Given a binary tree, find if it is height balanced or not. 
+    A tree is height balanced if difference between heights of left and right subtrees is not more than one for all nodes of tree. 
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/20200124141533/Untitled-Diagram65.jpg)
+
+    ```CPP
+    Output: 0 (meaning the tree is balanced)
     ```
 
 <BR/>

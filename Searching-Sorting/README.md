@@ -1,7 +1,26 @@
 * __[FIND MISSING AND REPEATING ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Find-Missing-Repeating.cpp)__
 
     Given an unsorted array arr of size n of positive integers. One number 'A' from set {1, 2, …n} is missing and one number 'B' occurs twice in array. Find these two numbers.
+    <br/>
 
+    __Time Complexity: O(N)__
+    __Space Complexity: O(N)__
+    <br/>
+    ```CPP
+    Input: n = 2
+           arr[] = {2, 2}
+    Output: Repeating: 2 Missing: 1
+    ```
+<BR/>
+
+* __[FIND MISSING AND REPEATING ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Find-Missing-Repeating2.cpp)__
+
+    Given an unsorted array arr of size n of positive integers. One number 'A' from set {1, 2, …n} is missing and one number 'B' occurs twice in array. Find these two numbers.
+    <br/>
+
+    __Time Complexity: O(N)__
+    __Space Complexity: O(1)__
+    <br/>
     ```CPP
     Input: n = 2
            arr[] = {2, 2}
