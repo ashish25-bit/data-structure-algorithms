@@ -129,6 +129,24 @@
     ```
 <BR/>
 
+* __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
+
+    Given an array A[] of N positive integers which can contain integers from 1 to N where elements can be repeated or can be absent from the array. Your task is to count the frequency of all elements from 1 to N.
+
+    ###### TIME COMPLEXITY: O(N) <br/> SPACE COMPLEXITY: O(1)
+
+    ```CPP
+    Input:  N = 5
+            A[] = {2, 3, 2, 3, 5}
+    Output: 0 2 2 0 1
+
+    Input:  N = 4
+            A[] = {3, 3, 3, 3}
+    Output: 0 0 4 0
+
+    ```
+<BR/>
+
 * __[LONGEST CONSECUTIVE SUBSEQUENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Longest-Consecutive-Subsequence.cpp)__
 
     Given an array of positive integers. Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, __the consecutive numbers can be in any order__.
@@ -358,7 +376,7 @@
 
 <BR/>
 
-* __[MOVE ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
+* __[ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
 
    Given an array arr[] of n positive integers. Push all the zero’s of the given array to the right end of the array while maitaining the order of non-zero elements.
 

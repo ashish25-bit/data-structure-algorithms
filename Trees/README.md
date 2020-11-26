@@ -89,6 +89,45 @@
 
 <BR/>
 
+* __[101-VIEW BOTTOM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/101-View-Bottom.cpp)__
+
+    Given a binary tree, print the bottom view from left to right.
+    A node is included in bottom view if it can be seen when we look at the tree from bottom.
+    
+    ```CPP
+    Input:  10
+            19 2 L 19 30 R 2 1 L 2 17 R 30 25 L 30 48 R 1 -1 N 1 -1 N 17 9
+    Output: 1 9 25 30 48
+    ```
+               19 
+             /   \
+           2      30
+          /  \   /  \
+        1    11 25   48
+               /
+              9
+<BR/>
+
+* __[102-VIEW TOP](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/102-View-Top.cpp)__
+
+    Given below is a binary tree. The task is to print the top view of binary tree. Top view of a binary tree is the set of nodes visible when the tree is viewed from the top. For the given below tree
+
+    ```CPP
+    Input:  10
+            19 2 L 19 30 R 2 1 L 2 17 R 30 25 L 30 48 R 1 -1 N 1 -1 N 17 9
+    Output: 1 2 19 30 48
+    ```
+               19 
+             /   \
+           2      30
+          /  \   /  \
+        1    11 25   48
+               /
+              9
+<BR/>
+    
+<BR/>
+
 * __[BALANCED TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Balanced-Tree.cpp)__
 
     Given a binary tree, find if it is height balanced or not. 
