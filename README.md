@@ -10,6 +10,7 @@
     * __[FIND PAIR WITH GIVEN DIFFERENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Pair-Given-Difference.cpp)__
     * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
     * __[LONGEST CONSECUTIVE SUBSEQUENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Longest-Consecutive-Subsequence.cpp)__
+    * __[MAXIMUM SUBARRAY PRODUCT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Product-Subarray.js)__
     * __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
     * __[MERGE ARRAY WITHOUT EXTRA SPACE [METHOD 1]](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Array.cpp)__ 
     * __[MERGE INTERVALS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Merge-Intervals.js)__
@@ -28,6 +29,7 @@
     * __[UNION AND INTERSECTION OF TWO  ARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Union-Intersection-Sorted-Array.cpp)__
     * __[MOVE ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
     * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
+    * __[ZERO SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zero-Subarrays-Sum.js)__
 
 * ### LINKED LIST
     * __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Cycle-Detection.cpp)__
@@ -52,6 +54,8 @@
     * __[SEARCH IN A ROTATED ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Search-In-Rotated-Sorted-Array.cpp)__
     * __[SORT N INTEGER ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Sort-N-Interger-Array.cpp)__
     * __[SQUARE ROOT OF AN INTEGER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Square-Root-Of-An-Integer.cpp)__
+    * __[KTH ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Kth-Element.js)__
+    * __[PIVOT ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Pivot-Element.js)__
 
 * ### STRINGS
     * __[DUPLICATE IN STRINGS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Strings/DuplicateInString.cpp)__

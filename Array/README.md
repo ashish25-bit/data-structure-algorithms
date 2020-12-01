@@ -159,6 +159,21 @@
     ```
 <BR/>
 
+* __[MAXIMUM SUBARRAY PRODUCT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Product-Subarray.js)__
+
+    Given an array arr that contains n integers (may be positive, negative or zero). Find the product of the maximum product subarray.
+
+    ```CPP
+    Input: n = 10
+           arr = 90 91 -91 91 -91 -90 90 90 -90 -90
+    Output: 404928287208900000
+
+    Input: n = 5
+           arr = 6 -3 -10 0 2
+    Output: 180
+    ```
+<BR/>
+
 * __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
 
     Given an array arr of n integers. Find the contiguous sub-array with maximum sum.
@@ -372,6 +387,18 @@
              arr2: 2, 2, 3, 5, 7
     Output : Union Array: 1 2 2 3 4 5 6 7
              Intersection Array: 2 5
+    ```
+
+<BR/>
+
+* __[ZERO SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zero-Subarrays-Sum.js)__
+
+    You are given an array a[] of size N. Find the total count of sub-arrays having their sum equal to 0.
+
+    ```CPP
+    Input  : n = 10
+             a[] = 6 -1 -3 4 -2 2 4 6 -12 -7
+    Output : 4
     ```
 
 <BR/>

@@ -58,6 +58,20 @@
     ```
 <BR/>
 
+* __[KTH ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Kth-Element.js)__
+
+    Given two sorted arrays __a__ and __b__ of size __n__ and __m__ respectively and an element __k__. The task is to find the element that would be at the k’th position of the final sorted array.
+
+    ```CPP
+    Input:  n = 5
+            m = 4
+            k = 5
+            a = 2 3 6 7 9
+            b = 1 4 8 10
+    Output: 6
+    ```
+<BR/>
+
 * __[MAJORITY ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Majority-Element.cpp)__
 
     Given an array arr of n elements. Find the majority element in the array. A majority element in an array arr of size n is an element that appears more than n/2 times in the array.
@@ -70,6 +84,17 @@
     Input: n = 3
            arr = 1 2 3
     Output: No Majority Element
+    ```
+<BR/>
+
+* __[PIVOT ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Searching-Sorting/Pivot-Element.js)__
+
+     Suppose we have a sorted array __a__ of size __n__, and now we rotate it __K__ times, find the pivot element. The pivot element would be the largest element.
+
+    ```CPP
+    Input:  n = 6
+            a = 56 57 17 32 50 51
+    Output: 57
     ```
 <BR/>
 
