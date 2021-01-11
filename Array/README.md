@@ -298,6 +298,20 @@
     ```
 <BR/>
 
+* __[SMALLEST SUBARRAY WITH GREATER SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Smallest-Subarray-With-Greater-Sum.cpp)__
+
+    Given an array of integers (a[])  and a number x, find the smallest subarray with sum greater than the given value.
+
+    __Note:__ There is at least one subarray with sum greater than x
+
+    ```CPP
+    Input  : n = 7, 51
+             a = {1, 4, 45, 6, 0, 19, 33}
+    Output : 2
+    ```
+    __Subarray__ in the above test case is: __{19, 33}__
+<BR/>
+
 * __[SORT012](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sort012.cpp)__
 
     Given an array A of size N containing 0s, 1s, and 2s; you need to sort the array in ascending order without using a sorting algo.

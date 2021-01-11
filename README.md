@@ -21,6 +21,7 @@
     * __[ONE CYCLIC ROTATION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/One-Cyclic-Rotation.cpp)__
     * __[REVERSE AN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Reverse.cpp)__
     * __[SEGREGATE POSITIVE AND NEGATIVE NUMBERS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Segregate-Positive-Negative-Numbers.cpp)__
+    * __[SMALLEST SUBARRAY WITH GREATER SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Smallest-Subarray-With-Greater-Sum.cpp)__
     * __[SORT012](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sort012.cpp)__
     * __[STICKLER THIEF](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Stickler-Thief.cpp)__ 
     * __[SUBARRAY SUM EQUALS ZERO](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subarray-Sum-Zero.cpp)__
@@ -76,3 +77,6 @@
     * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
     * __[101-VIEW BOTTOM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/101-View-Bottom.cpp)__
     * __[102-VIEW TOP](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/102-View-Top.cpp)__
+    * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
+    * __[SUM OF THE LONGEST BLOODLINE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Of-The-Longest-Bloodline.cpp)__
+    * __[SUM TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Tree.cpp)__

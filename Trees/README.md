@@ -170,3 +170,40 @@
     ```
 
 <BR/>
+
+* __[SUM OF THE LONGEST BLOODLINE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Of-The-Longest-Bloodline.cpp)__
+
+    Given a binary tree of size N. Your task is to complete the function sumOfLongRootToLeafPath(), that find the sum of all nodes on the longest path from root to leaf node.
+    If two or more paths compete for the longest path, then the path having maximum sum of nodes is being considered.
+
+    ![Tree](https://s3.amazonaws.com/hr-assets/0/1529959649-81b68736f7-lcaexample.png)
+
+    ```cpp
+    Output: 16
+    ```
+    Explanation:
+    2 + 3 + 5 + 6 = 16
+
+<BR/>
+
+* __[SUM TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Tree.cpp)__
+
+    Given a Binary Tree of size N , where each node can have positive or negative values. Convert this to a tree where each node contains the sum of the left and right sub trees of the original tree. The values of leaf nodes are changed to 0.
+
+    Input:
+
+            10
+           /  \
+         -2    6
+         / \  / \
+        8  -4 7  5
+
+    Output:
+
+            20
+           /  \
+          4    12
+         / \   / \
+        0   0 0   0
+
+<BR/>
