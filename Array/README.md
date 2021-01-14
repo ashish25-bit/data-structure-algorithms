@@ -367,6 +367,31 @@
     ```
 <BR/>
 
+* __[SUM OF ALL SUBARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subarray.cpp)__
+    
+    ###### NOTE: Space Complexity: O(N)
+
+    ```CPP
+    Input:  N = 3
+            arr[] = {1, 2, 3}
+    Output : 20
+    ```
+
+<BR/>
+
+* __[SUM OF ALL SUBSETS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subsets.cpp)__
+
+    Given an array of integers, print sums of all subsets in it. Output sums can be printed in any order.
+    
+    ###### NOTE: Space Complexity: O(N)
+
+    ```CPP
+    Input:  N = 3
+            arr[] = {2, 4, 5}
+    Output : 0 2 4 5 6 7 9 11
+    ```
+
+<BR/>
 
 * __[THREE WAY PARTITIONING(1)](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Three-Way-Partitioning.cpp)__
 

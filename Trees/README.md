@@ -77,7 +77,7 @@
 
 <BR/>
 
-* __[7-TRAVERSAL ZIZ-ZAG](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/6-Traversal-Zig-Zag.cpp)__
+* __[7-TRAVERSAL ZIZ-ZAG](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/7-Traversal-Zig-Zag.cpp)__
 
    Given a Binary Tree. Find the Zig-Zag Level Order Traversal of the Binary Tree.
 
@@ -85,6 +85,18 @@
 
     ```CPP
     Output: 1 3 2 4 6 5 7 
+    ```
+
+<BR/>
+
+* __[8-TRAVERSAL BOUNDARY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/8-Traversal-Boundary.cpp)__
+
+   Given a Binary Tree, find its Boundary Traversal
+
+    ![Tree](https://contribute.geeksforgeeks.org/wp-content/uploads/boundary.png)
+
+    ```CPP
+    Output: 20 8 4 10 14 25 22
     ```
 
 <BR/>
@@ -205,5 +217,13 @@
           4    12
          / \   / \
         0   0 0   0
+
+<BR/>
+
+* __[TREE TO DOUBLY LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Tree-To-Doubly-Linked-List.cpp)__
+
+    Given a Binary Tree (BT), convert it to a Doubly Linked List(DLL) In-Place. The left and right pointers in nodes are to be used as previous and next pointers respectively in converted DLL. The order of nodes in DLL must be same as Inorder of the given Binary Tree. The first node of Inorder traversal (leftmost node in BT) must be the head node of the DLL.
+
+    ![Tree](http://www.geeksforgeeks.org/wp-content/uploads/TreeToList.png)
 
 <BR/>

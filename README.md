@@ -26,6 +26,8 @@
     * __[STICKLER THIEF](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Stickler-Thief.cpp)__ 
     * __[SUBARRAY SUM EQUALS ZERO](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subarray-Sum-Zero.cpp)__
     * __[SUBSET ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subset-Array.cpp)__
+    * __[SUM OF ALL SUBARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subarray.cpp)__
+    * __[SUM OF ALL SUBSETS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subsets.cpp)__
     * __[THREE WAY PARTITIONING(1)](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Three-Way-Partitioning.cpp)__
     * __[UNION AND INTERSECTION OF TWO  ARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Union-Intersection-Sorted-Array.cpp)__
     * __[MOVE ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
@@ -72,6 +74,7 @@
     * __[5-TRAVERSAL REVERSE LEVEL ORDER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/5-Traversal-Reverse-Level-Order.cpp)__
     * __[6-TRAVERSAL DIAGONAL](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/6-Traversal-Diagonal.cpp)__
     * __[7-TRAVERSAL ZIZ-ZAG](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/6-Traversal-Zig-Zag.cpp)__
+    * __[8-TRAVERSAL BOUNDARY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/8-Traversal-Boundary.cpp)__
     * __[BALANCED TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Balanced-Tree.cpp)__
     * __[HEIGHT OF A TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Height.cpp)__
     * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
@@ -80,3 +83,4 @@
     * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
     * __[SUM OF THE LONGEST BLOODLINE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Of-The-Longest-Bloodline.cpp)__
     * __[SUM TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Tree.cpp)__
+    * __[TREE TO DOUBLY LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Tree-To-Doubly-Linked-List.cpp)__
