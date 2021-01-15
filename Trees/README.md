@@ -137,6 +137,26 @@
                /
               9
 <BR/>
+
+* __[103-VIEW LEFT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/103-View-Left.cpp)__
+
+    Given a Binary Tree, print Left view of it. Left view of a Binary Tree is set of nodes visible when tree is visited from Left side. The task is to complete the function leftView(), which accepts root of the tree as argument.
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190221103723/leftview.jpg)
+    ```CPP
+    Output: 10 20 40
+    ```
+<BR/>
+
+* __[104-VIEW RIGHT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/104-View-Right.cpp)__
+
+    Given below is a binary tree. The task is to print the top view of binary tree. Top view of a binary tree is the set of nodes visible when the tree is viewed from the top. For the given below tree
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190221103723/leftview.jpg)
+    ```CPP
+    Output: 10 30 60
+    ```
+<BR/>
     
 <BR/>
 
@@ -149,6 +169,34 @@
 
     ```CPP
     Output: 0 (meaning the tree is balanced)
+    ```
+
+<BR/>
+
+* __[CHECK FOR SUM TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Check-For-Sum-Tree.cpp)__
+
+    Given a Binary Tree. Check whether it is a Sum Tree or not.
+
+    A Binary Tree is a Sum Tree in which value of each node x is equal to sum of nodes present in its __left subtree__ and __right subtree__ . An empty tree is also a Sum Tree as sum of an empty tree can be considered to be 0. A leaf node is also considered as a Sum Tree.
+
+    ```CPP
+    Input: 
+            3
+           / \
+          1   2
+
+    Output: 1
+    ```
+
+    ```CPP
+    Input:
+            10
+           /  \
+          20   30
+         /  \
+        10   10
+
+    Output: 0
     ```
 
 <BR/>
