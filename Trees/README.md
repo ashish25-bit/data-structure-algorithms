@@ -201,6 +201,36 @@
 
 <BR/>
 
+* __[DUPLICATE SUBTREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Duplicate-Subtree.cpp)__
+
+    Given a binary tree, find out whether it contains a duplicate sub-tree of size two or more, or not.
+
+    ```CPP
+    Input: 
+                1
+              /   \
+             2     3
+           /   \     \
+          4     5     2
+                    /   \
+                   4     5
+
+    Output: 1
+    ```
+
+    ```CPP
+    Input:
+            10
+           /  \
+          20   30
+         /  \
+        10   10
+
+    Output: 0
+    ```
+
+<BR/>
+
 * __[HEIGHT OF A TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Height.cpp)__
 
     Given a binary tree, find its height

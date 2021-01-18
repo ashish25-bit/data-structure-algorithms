@@ -29,6 +29,7 @@
     * __[SUM OF ALL SUBARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subarray.cpp)__
     * __[SUM OF ALL SUBSETS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subsets.cpp)__
     * __[THREE WAY PARTITIONING(1)](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Three-Way-Partitioning.cpp)__
+    * __[TRIPLE SUM IN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Triplet-Sum-In-Array.js)__
     * __[UNION AND INTERSECTION OF TWO  ARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Union-Intersection-Sorted-Array.cpp)__
     * __[MOVE ZEROS TO END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zeros-To-End.cpp)__
     * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
@@ -77,6 +78,7 @@
     * __[8-TRAVERSAL BOUNDARY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/8-Traversal-Boundary.cpp)__
     * __[BALANCED TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Balanced-Tree.cpp)__
     * __[CHECK FOR SUM TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Check-For-Sum-Tree.cpp)__
+    * __[DUPLICATE SUBTREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Duplicate-Subtree.cpp)__
     * __[HEIGHT OF A TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Height.cpp)__
     * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
     * __[101-VIEW BOTTOM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/101-View-Bottom.cpp)__

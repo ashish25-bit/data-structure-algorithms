@@ -417,6 +417,20 @@
 
 <BR/>
 
+* __[TRIPLE SUM IN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Triplet-Sum-In-Array.js)__
+
+    Given an array and an integer K. Find if there's a triplet in the array which sums up to the given integer K. 
+
+    ```CPP
+    Input  : n = 6
+             K = 13
+             arr[] = [1 4 45 6 10 8]
+    Output : true
+    ```
+
+<BR/>
+
+
 * __[UNION AND INTERSECTION OF TWO  ARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Union-Intersection-Sorted-Array.cpp)__
 
     Given an array A of size N containing 0s, 1s, and 2s; you need to sort the array in ascending order without using a sorting algo.
