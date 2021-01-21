@@ -35,6 +35,12 @@
     * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
     * __[ZERO SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Zero-Subarrays-Sum.js)__
 
+* ### BACKTRACKING
+    * __[ALL POSSIBLE PATHS RIGHT AND DOWN MOVEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/All-Possible-Path(Right-Bottom-Movement).cpp)__
+    * __[LONGEST ROUTE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Longest-Route.cpp)__
+    * __[PARTITION EQUAL SUM SUBSET](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Partition-Equal-Subset-Sum.js)__
+    * __[RAT IN A MAZE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Rat-In-A-Maze.cpp)__
+
 * ### LINKED LIST
     * __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Cycle-Detection.cpp)__
     * __[FIND MEDIAN ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Find-Median-Element.cpp)__

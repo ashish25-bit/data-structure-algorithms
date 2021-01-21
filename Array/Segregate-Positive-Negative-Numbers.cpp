@@ -28,6 +28,9 @@ int main() {
 
     int prevElement = 0;
 
+    /**
+     * this loop will move all the negative numbers to the left, if there is any.
+     */
     for (int i=0; i<arr.size(); i++) {
         if (arr[i] < 0) {
             if (i != prevElement) {
@@ -39,7 +42,19 @@ int main() {
         }
     }
 
+    /**
+     * The elements berfore prevElement will be negative
+     * 0 to prevElement - 1 => negative numbers
+     * prevElement to n-1 => positive numbers
+     */
+
     cout << "After Rearranging: ";
+
+    /**
+     * prevElement = 0 means there is no neagtive number
+     * prevElement = 1 means there is only one negative number and already been swapped
+     * prevElement = n means all the numbers are negative
+     */
     if (prevElement == 0 || prevElement == 1 || prevElement == n)
         printArray(arr);
 
