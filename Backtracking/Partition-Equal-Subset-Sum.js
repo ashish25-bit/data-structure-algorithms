@@ -9,9 +9,11 @@ function partition(N, arr, sum, i) {
     
     if (sum == 0) return 1;
     
+    // including the number in the subset
     let include = partition(N, arr, sum - arr[i], i+1);
     if (include) return 1;
     
+    // not including the number in the subset
     return partition(N, arr, sum, i+1);
 }
 

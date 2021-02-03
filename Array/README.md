@@ -147,6 +147,20 @@
     ```
 <BR/>
 
+* __[Kth SMALLEST ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Kth-Smallest-Element.js)__
+
+    __Quick Select Algorithm: O(N)__
+
+    Find the Kth-smallest element in a array of size N.
+
+    ```javascript
+    Input:  const arr = [7, 10, 4, 3, 20, 15];
+            const k = 3;
+    Output: 7
+
+    ```
+<BR/>
+
 * __[LONGEST CONSECUTIVE SUBSEQUENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Longest-Consecutive-Subsequence.cpp)__
 
     Given an array of positive integers. Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, __the consecutive numbers can be in any order__.

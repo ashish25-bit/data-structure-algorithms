@@ -1,46 +1,50 @@
 function partition(arr, low, high) {
     const pivot = arr[high];
-    let index = low - 1;
+    let index = low;
 
-    for (let j = low; j <= high; j++) {
-        if (arr[j] < pivot) {
-            index++;
-            // swapping elements
+    for (let j = low; j <= high - 1; j++) {
+        if (arr[j] <= pivot) {
+
             let temp = arr[index];
             arr[index] = arr[j];
-            arr[j] = temp;
+            arr[j] = temp;            
+            index++;
         }
     }
 
-    let temp = arr[index + 1];
-    arr[index + 1] = arr[high];
-    arr[high] = temp;
+    let temp = arr[index];
+    arr[index] = arr[high];
+    arr[high] = temp; 
 
-    return index + 1;
+    return index;
 }
 
 function quickSelect(arr, low, high, k) {
 
-    if (low < high) {
+    // value of k is not out of bounds.
+    if (k > 0 && k <= high - low + 1) {
+
+        // partition index
         let pi = partition(arr, low, high);
-    
-        console.log(arr);
-        console.log(`partition: ${pi}`)
-        console.log(`k: ${k}`)
-    
-        // if (pi === k-1) 
-        //     return arr[pi];
-            
-        quickSelect(arr, low, pi-1, k)
+ 
+        if (pi - low == k - 1)
+            return arr[pi];
+        
+        // for the left subarray
+        if (pi - low > k - 1) 
+            return quickSelect(arr, low, pi - 1, k);
+
+        // for the right subarray
+        return quickSelect(arr, pi + 1, high, k - pi + low - 1);
     }
+    
+    return Number.MAX_VALUE;
 }
 
 function main() {
     const arr = [7, 10, 4, 3, 20, 15];
     const k = 3;
-    quickSelect(arr, 0, arr.length - 1, k);
-    // console.log(quickSelect(arr, 0, arr.length - 1, k));
-    // console.log(arr);
+    console.log(quickSelect(arr, 0, arr.length - 1, k));
 }
 
 main();
