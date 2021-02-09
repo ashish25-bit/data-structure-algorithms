@@ -14,6 +14,19 @@
     ```
 <br>
 
+* __[FIND POSITION OF SET BIT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Bit-Manipulation/Find-Position-Of-Set-Bit.js)__
+
+    Given a number N having only one ‘1’ and all other ’0’s in its binary representation, find position of the only set bit. If there are 0 or more than 1 set bit the answer should be -1. Position of  set bit '1' should be counted starting with 1 from LSB side in binary representation of the number.
+
+    ```CPP
+    Input : N = 2
+    Output: 2
+
+    Input : N = 5
+    Output: -1 
+    ```
+<br>
+
 * __[SET BITS COUNT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Bit-Manipulation/Set-Bits-Count.cpp)__
 
     Given a positive integer N, print count of set bits in it. 

@@ -1,3 +1,13 @@
+function countCharacters(str) {
+    let count = 0;
+    for (let char of str) {
+        if ((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z')) 
+            count++;
+    }
+
+    return count;
+}
+
 /**
  * @param {string} sentence: the input sentence
  * @param {int} pos: the current position in the sentence
@@ -10,7 +20,7 @@ function wordBreak(sentence, pos, word, sen, res, hashMap) {
 
     // reached the end
     if (pos == sentence.length) {
-        if (sen !== "")
+        if (sen !== "" && countCharacters(sen) == sentence.length)
             res.push(sen.trim());
         return;
     }
@@ -20,28 +30,27 @@ function wordBreak(sentence, pos, word, sen, res, hashMap) {
     word = word + sentence[pos];
     pos++;
 
+    // continue adding to the current word
+    wordBreak(sentence, pos, word, sen, res, hashMap);
+
     if (hashMap.has(word)) {
-        // continue adding to the current word
-        wordBreak(sentence, pos, word, sen, res, hashMap);
 
         // add the formed current word to the current sentence
         sen = sen + " " + word;
         word = "";
         wordBreak(sentence, pos, word, sen, res, hashMap);
     }
-
-    else wordBreak(sentence, pos, word, sen, res, hashMap);
 }
 
 function main() {
-    // const sentence = "snakesandladder";
-    // const dict = ["snake", "snakes", "and", "sand", "ladder"];
+    const sentence = "snakesandladder";
+    const dict = ["snake", "snakes", "and", "sand", "ladder"];
 
     // const sentence = "snksnd";
     // const dict = ["snk", "snks", "snd", "nd"];
 
-    const sentence = "ilikeicecreamandmango";
-    const dict = ["i", "like", "sam", "sung", "samsung", "mobile", "ice", "and", "cream", "icecream", "man", "go", "mango"]
+    // const sentence = "ilikeicecreamandmango";
+    // const dict = ["i", "like", "sam", "sung", "samsung", "mobile", "ice", "and", "cream", "icecream", "man", "go", "mango"]
 
     // const sentence = "hcdarlrm";
     // const dict = ["lr", "m", "lrm", "hcdar", "wk"];

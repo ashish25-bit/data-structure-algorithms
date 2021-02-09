@@ -42,6 +42,11 @@
     * __[PARTITION EQUAL SUM SUBSET](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Partition-Equal-Subset-Sum.js)__
     * __[RAT IN A MAZE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Rat-In-A-Maze.cpp)__
 
+* ### BIT MANIPULATION
+    * __[BIT DIFFERENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Bit-Manipulation/Bit-Difference.js)__
+    * __[FIND POSITION OF SET BIT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Bit-Manipulation/Find-Position-Of-Set-Bit.js)__
+    * __[SET BITS COUNT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Bit-Manipulation/Set-Bits-Count.cpp)__
+
 * ### LINKED LIST
     * __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Cycle-Detection.cpp)__
     * __[FIND MEDIAN ELEMENT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Find-Median-Element.cpp)__
