@@ -291,6 +291,18 @@
     ```
 <BR/>
 
+* __[PICKING NUMBERS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Picking-Numbers.cpp)__
+
+    Given an array of integers, find the longest subarray where the absolute difference between any two elements is less than or equal to 1.
+
+    ```CPP
+    Input  : 6
+             4 6 5 3 3 1
+    Output : 3
+    LONGEST SUBARRAY: 4 3 3
+    ```
+<BR/>
+
 * __[REVERSE AN ARRAY](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Reverse.cpp)__
 
     Write a program to reverse an array or string

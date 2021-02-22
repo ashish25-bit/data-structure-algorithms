@@ -63,7 +63,7 @@ function findPalindromes(str, position, word, sen, res) {
 }
 
 function main() {
-    const str = "ass";
+    const str = "aab";
     let res = [];
 
     findPalindromes(str, 0, "", "",res);

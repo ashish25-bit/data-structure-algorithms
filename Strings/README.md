@@ -40,6 +40,32 @@
     ```
 <BR/>
 
+* __[PRINT ALL SENTENCES](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Strings/Print-All-Sentences.js)__
+
+    Given a list of word lists How to print all sentences possible taking one word from a list at a time via recursion.
+    
+    ```CPP
+    Input : {
+                {"you", "we"},
+                {"have", "are"},
+                {"sleep", "eat", "drink"}
+            } 
+    Output: "you have sleep"
+            "you have eat"
+            "you have drink"
+            "you are sleep"
+            "you are eat"
+            "you are drink"
+            "we have sleep"
+            "we have eat"
+            "we have drink"
+            "we are sleep"
+            "we are eat"
+            "we are drink"
+    ```
+    ```
+<BR/>
+
 * __[REVERSE STRING](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Strings/Reverse-String.cpp)__
 
     Write a function that reverses a string.
