@@ -1,3 +1,11 @@
+/**
+ * The idea here is: 
+ * find the largest index(mark) where arr[i-1] < arr[i].
+ * if mark = -1 that means array was sorted in descending order. sort the array in ascending and return.
+ * swap tbe elements at mark and idx.
+ * reverse the array from index mark + 1 to end and return.
+ */ 
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -30,6 +38,8 @@ vector<int> reverseNums(vector<int> a, int i, int j) {
 }
 
 vector<int> nextPermutation(vector<int> nums) {
+
+    // find the largest index(mark) where arr[i-1] < arr[i]
     int mark = -1;
     for (int i = nums.size() - 1; i > 0; i--) {
         if (nums[i] > nums[i - 1]) {
@@ -38,11 +48,15 @@ vector<int> nextPermutation(vector<int> nums) {
         }
     }
 
+    // if mark = -1 that means array was sorted in descending order
+    // sort the array in ascending and return
     if (mark == -1) {
         nums = reverseNums(nums, 0, nums.size() - 1);
         return nums;
     }
 
+    // find a largest index(idx) where arr[idx] > arr[mark]
+    // the condition is the index(idx) should be greater than mark
     int idx = nums.size()-1;
     for (int i = nums.size()-1; i >= mark+1; i--) {
         if (nums[i] > nums[mark]) {
@@ -51,10 +65,12 @@ vector<int> nextPermutation(vector<int> nums) {
         }
     }
 
+    // swap tbe elements at mark and idx
     int temp = nums[mark];
     nums[mark] = nums[idx];
     nums[idx] = temp;
 
+    // reverse the array from index mark + 1 to end and return.
     return reverseNums(nums, mark + 1, nums.size() - 1);
 }
 
