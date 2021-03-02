@@ -9,7 +9,7 @@ using namespace std;
  */
 void sum(int* a, int n) {
     int size = sizeof(a) / sizeof(a[0]);
-    cout << "Size in sum function" << size << endl;
+    cout << "Size in sum function: " << size << endl;
 
     int i=0;
     int s = 0;
@@ -18,12 +18,13 @@ void sum(int* a, int n) {
         a++;
         i++;
     }
-    cout << s;
+    cout << "sum: " << s;
 }
 
 int main() {
     int a[] = {1, 2, 3, 4, 5};
-    for (int i = 0; i < 3; i++) 
+    int n = sizeof(a) / sizeof(a[0]);
+    for (int i = 0; i < n; i++) 
         cout << *(a + i) << " ";
 
     int *p = a;
@@ -32,9 +33,8 @@ int main() {
     cout << "pointer to array after incrementing: " << *p << endl;
 
     // note a++ is invalid
-    int size = sizeof(a) / sizeof(a[0]);
-    cout << "Size in main function" << size << endl;
-    sum(a, size);
+    cout << "Size in main function: " << n << endl;
+    sum(a, n);
 
     return 0;
 }

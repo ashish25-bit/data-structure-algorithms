@@ -29,6 +29,17 @@
     ```
 <BR/>
 
+* __[EQUAL 0s 1s](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Strings/Equal-0s-1s.js)__
+
+    Given a binary string str of length N, the task is to find the maximum count of substrings str can be divided into such that all the substrings are balanced i.e. they have equal number of 0s and 1s.
+    
+    ```CPP
+    Input: 0100110101
+    Output: 4
+    ```
+    ```
+<BR/>
+
 * __[PALINDROME STRING](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Strings/Palindrom-String.cpp)__
 
     Given a string S, check if it is palindrome or not.
