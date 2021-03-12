@@ -1,3 +1,12 @@
+* __[CLONE LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Clone-LL.cpp)__
+    
+    Clone a linked list which have a __next pointer__ which points to the next node and an __arbitrary pointer__ which may or may not points to any node.
+
+    ![](https://contribute.geeksforgeeks.org/wp-content/uploads/clone.jpg)
+
+<BR/>
+
+
 * __[CYCLE DECTECTION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Cycle-Detection.cpp)__
     
     ![Cycle Detection Image](https://www.geeksforgeeks.org/wp-content/uploads/2009/04/Linked-List-Loop.gif)
@@ -121,6 +130,25 @@
     Input:  1->2->3->4->NULL 
     Output: 4->3->2->1->NULL
     ```
+<BR/>
+
+* __[SEGREGATE EVEN AND ODD NODES](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Segreagate-Even-Odd-Nodes.cpp)__
+    
+    Given a link list of size N, modify the list such that all the even numbers appear before all the odd numbers in the modified list. The order of appearance of numbers within each segregation should be __same as that in the original list__.
+
+    ```CPP
+    Input:  17->15->8->9->2->4->6->NULL
+    Output: 8->2->4->6->17->15->9->NULL
+    ```
+<BR/>
+
+* __[GIVEN A LINKED LIST OF 0s, 1s AND 2s SORT IT.](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Sort012.cpp)__
+    
+    ```CPP
+    Input:  {1,2,2,1,2,0,2,2}
+    Output: 0 1 1 2 2 2 2 2
+    ```
+
 <BR/>
 
 * __[STARTING POINT OF THE LOOP](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Starting-Point-Loop.cpp)__

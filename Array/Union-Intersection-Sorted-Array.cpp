@@ -1,14 +1,17 @@
 /**
  * Input: 
- arr1: 1, 2, 2, 4, 5, 6
+ arr1: 1, 2, 2, 2, 4, 5, 6
  arr2: 2, 2, 3, 5, 7
  * Output:
- Union Array: 1 2 2 3 4 5 6 7
+ Union Array: 1 2 3 4 5 6 7
  Intersection Array: 2 5
+
+ * ONLY APPLICABLE IF THE ARRAY IS SORTED.
  */
 
 #include <iostream>
 #include <vector>
+#include<unordered_set>
 using namespace std;
 
 void printArray(vector<int> arr) {
@@ -22,14 +25,29 @@ void arrayUnion(vector<int> arr1, vector<int> arr2) {
     int m = arr2.size();
     int i=0, j=0;
     vector<int> unionArray;
+    unordered_set<int> hs;
 
     while (i<n && j<m) {
-        if (arr1[i] < arr2[j])
-            unionArray.push_back(arr1[i++]);
-        else if (arr1[i] > arr2[j])
-            unionArray.push_back(arr2[j++]);
+        if (arr1[i] < arr2[j]) {
+            if (hs.find(arr1[i]) == hs.end()) {
+                unionArray.push_back(arr1[i]);
+                hs.insert(arr1[i]);
+            }
+            i++;
+        }
+        else if (arr1[i] > arr2[j]) {
+            if (hs.find(arr2[j]) == hs.end()) {
+                unionArray.push_back(arr2[j]);
+                hs.insert(arr2[j]);
+            }
+            j++;
+        }
         else {
-            unionArray.push_back(arr1[i++]);
+            if (hs.find(arr1[i]) == hs.end()) {
+                unionArray.push_back(arr1[i]);
+                hs.insert(arr1[i]);
+            }
+            i++;
             j++;
         }
     }
@@ -48,10 +66,7 @@ void arrayIntersection(vector<int> arr1, vector<int> arr2) {
     int m = arr2.size();
     int i=0, j=0;
     
-    // consider this constraint
-    // 0 <= arr1[i], arr2[i] <= 100
-    vector<int> hs(100, 0);
-    
+    unordered_set<int> hs;    
     vector<int> interArray;
 
     while (i<n && j<m) {
@@ -60,9 +75,9 @@ void arrayIntersection(vector<int> arr1, vector<int> arr2) {
         else if (arr1[i] > arr2[j])
             j++;
         else {
-            if (!hs[arr1[i]]) {
+            if (hs.find(arr1[i]) == hs.end()) {
                 interArray.push_back(arr1[i]);
-                hs[arr1[i]] = 1;
+                hs.insert(arr1[i]);
             }
             i++;
             j++;

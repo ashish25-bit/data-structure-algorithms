@@ -395,8 +395,6 @@
 
 * __[SUM OF ALL SUBARRAYS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subarray.cpp)__
     
-    ###### NOTE: Space Complexity: O(N)
-
     ```CPP
     Input:  N = 3
             arr[] = {1, 2, 3}
@@ -439,6 +437,24 @@
             A[] = {1, 2, 3}
             [a, b] = [1, 3]
     Output : {1, 2, 3}
+    ```
+
+<BR/>
+
+* __[THREE WAY PARTITIONING(2)](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Three-Way-Partitioning2.js)__
+
+    Given an array of size N and a range [a, b]. The task is to partition the array around the range such that array is divided into three parts.
+    * All elements smaller than a come first.
+    * All elements in range a to b come next.
+    * All elements greater than b appear in the end.
+    The individual elements of three sets can appear in any order. You are required to return the modified array.
+    
+    ###### NOTE: Space Complexity: O(1)
+
+    ```CPP
+    Input : A[] = {87, 14, 15, 78, 40, 94, 16}
+            a = 36, b = 72
+    Output : {16, 14, 15, 40, 94, 78, 87}
     ```
 
 <BR/>

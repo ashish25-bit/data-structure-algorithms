@@ -261,6 +261,32 @@
 
 <BR/>
 
+* __[PRINT TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/PrintTree.js)__
+
+    ```CPP
+    Input:
+
+         1
+        / \
+       2   3
+      / \   \
+     4   5   6
+            / \
+           7   8
+
+    Output:
+        └───1
+            └───2
+                ├───4
+                └───5
+            └───3
+                └───6
+                    ├───7
+                    └───8
+    ```
+
+<BR/>
+
 * __[SUM OF THE LONGEST BLOODLINE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Sum-Of-The-Longest-Bloodline.cpp)__
 
     Given a binary tree of size N. Your task is to complete the function sumOfLongRootToLeafPath(), that find the sum of all nodes on the longest path from root to leaf node.
