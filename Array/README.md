@@ -94,7 +94,7 @@
     Input:  n = 3, m = 5
             arr1 = [1, 3, 5]
             arr2 = [2, 4, 6, 8, 9]
-    Output: 3
+    Output: 4
 
     Input:  n = 3, m = 4
             arr1 = [1, 3, 10]

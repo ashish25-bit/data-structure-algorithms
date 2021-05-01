@@ -89,6 +89,19 @@
     ```
 <BR/>
 
+* __[NTH NODE FROM END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Nth-Node-From-End.cpp)__
+    
+    ```CPP
+    Input:  N = 2
+            LinkedList: 1->2->3->4->5->6->7->8->9
+    Output: 8
+
+    Input:  N = 5
+            LinkedList: 10->5->100->5
+    Output: -1
+    ```
+<BR/>
+
 * __[REMOVE DUPLICATES FROM A SORTED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Remove-Duplicates-Sorted-Linked-List.cpp)__
     
     ```CPP

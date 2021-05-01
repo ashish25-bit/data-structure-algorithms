@@ -41,22 +41,18 @@ Node* insertNode(Node* head, int data) {
 }
 
 Node* findMedian(Node* head) {
-    int n = 0, pos = 1;
-    int medianPosition;
-    Node* temp = head;
-
-    while (temp) {
-        n++;
-        temp = temp->next;
+    if (head == NULL)
+            return NULL;
+        
+    Node* slow = head;
+    Node* fast = head;
+    
+    while (fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
     }
-
-    medianPosition = n/2 + 1;
-    temp = head;
-
-    while (pos++ != medianPosition)
-        temp = temp->next;
-
-    return temp;
+    
+    return slow;
 }
 
 int main() {

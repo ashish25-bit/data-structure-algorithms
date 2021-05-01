@@ -20,7 +20,7 @@
     3. number & mask == 0 then ith bit is 0.
 
 7. Set ith bit of a number to '1'.
-    1. Left shift 'i' i times (mask).
+    1. Left shift '1' i times (mask).
     2. number = number | mask.
 
 8. Clear bit or change the ith bit to '0'.
@@ -33,3 +33,5 @@
 
 10. 0 ^ number = number
     number ^ number = 0
+
+11. if number & (number - 1) === 0 then the number is a power of 2 
