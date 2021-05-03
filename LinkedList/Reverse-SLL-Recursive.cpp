@@ -5,7 +5,7 @@
  5->4->3->2->1
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Node {
@@ -46,30 +46,29 @@ void printLL(Node* head) {
     cout << head->data;
 }
 
+Node* reverseUtil(Node* curr, Node* prev) {
+    if (!curr) return prev;
+
+    Node* next = curr->next;
+    curr->next = prev;
+    prev = curr;
+    curr = next;
+
+    return reverseUtil(curr, prev);
+}
+
 Node* reverseList(Node* head) {
-    if (!head || !head->next)
-        return head;
-    Node* rev_head = reverseList(head->next);
-    head->next->next = head;
-    head->next = NULL;
-    return rev_head;
+    return reverseUtil(head, NULL);
 }
 
 int main() {
-    int n, temp;
-    cout << "Enter the number of elements needed in the list\n";
-    cin >> n;
 
-    // ensuring atleast 5 elements
-    if (n<5)
-        n = 5;
+    vector<int> arr = {1, 2, 3, 4, 5};
 
     SingleLinkedList* llist = new SingleLinkedList();
-    cout << "Enter " << n << " digits for linked list\n";
-    for (int i=0; i<n; i++) {
-        cin >> temp;
-        llist->head = insertNode(llist->head, temp);
-    }
+
+    for (int x: arr)
+        llist->head = insertNode(llist->head, x);
 
     cout << "Linked List is \n";
     printLL(llist->head);

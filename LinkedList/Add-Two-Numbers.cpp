@@ -95,10 +95,12 @@ ListNode* addLL(ListNode* l1, ListNode* l2) {
 int main() {
   // vector<int> l1 = {2, 4, 3};
   // vector<int> l2 = {5, 6, 4};
-  // vector<int> l1 = {9, 9};
-  // vector<int> l2 = {1, 1};
-  vector<int> l1 = {1};
-  vector<int> l2 = {9, 9, 9};
+
+  vector<int> l1 = {9, 9};
+  vector<int> l2 = {0, 1};
+
+  // vector<int> l1 = {1};
+  // vector<int> l2 = {9, 9, 9};
 
   ListNode* h1 = getList(l1);
   ListNode* h2 = getList(l2);

@@ -1,3 +1,19 @@
+* __[ADD TWO NUMBERS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Add-Two-Numbers.cpp)__
+    
+    Given two numbers represented by two linked lists(THE NUMBERS IN THE LIST ARE IN REVERSE ORDER).
+    The task is to return a sum list. The sum list is a linked list representation of the addition of two input numbers.
+
+    ```CPP
+    Input: l1 = {2-> 4-> 3} { 342 }
+           l1 = {5-> 6-> 4} {465}
+    Output: 7-> 0-> 8 {807}
+    
+    Input: l1 = {9-> 9} {99}
+           l1 = {0-> 1} {10}
+    Output: 9-> 0-> 1 {109}
+    ```
+<BR/>
+
 * __[CLONE LINKED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Clone-LL.cpp)__
     
     Clone a linked list which have a __next pointer__ which points to the next node and an __arbitrary pointer__ which may or may not points to any node.
@@ -31,6 +47,20 @@
     Input:  [1,2,3,4,5]
     Output: Node 3 from this list (Serialization: [3,4,5])
             The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
+    ```
+
+<BR/>
+
+* __[FIRST NON REPEATING CHARACTER IN A STREAM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/First-Non-Repeating-Character-In-A-Stream.cpp)__
+
+    Given an input stream of A of n characters consisting only of lower case alphabets. The task is to find the first non repeating character, each time a character is inserted to the stream. If there is no such character then append '#' to the answer.
+
+    ```CPP
+    Input:  abab
+    Output: aab#
+    
+    Input:  aabbbcdeef
+    Output: a#b##ccccc
     ```
 
 <BR/>

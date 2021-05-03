@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
@@ -62,20 +62,14 @@ Node* reverseKNodes(Node* root, int k) {
 }
 
 int main() {
-
-    int n, temp, k;
-    cout << "Enter the value for n and k: \t";
-    cin >> n >> k;
-
-    if (n<5)
-        n = 5;
-
+    vector<int> arr = {1, 2, 3, 4, 5};
+    
     SingleLinkedList* llist = new SingleLinkedList();
-    cout << "Enter " << n << " digits for linked list\n";
-    for (int i=0; i<n; i++) {
-        cin >> temp;
+
+    for (int temp: arr) {
         llist->head = insertNode(llist->head, temp);
     }
+    int k = 2;
 
     cout << "Linked List: ";
     printLL(llist->head);
