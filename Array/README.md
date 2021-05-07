@@ -22,6 +22,8 @@
     Output: Max Profit: 5
     ```
 
+    __[Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)__
+
 <BR/>
 
 * __[CHOCOLATE DISTRIBUTION PROBLEM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Chocolate-Distribution-Problem.cpp)__
@@ -37,6 +39,8 @@
     Output: 6
     ```
 
+    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1)__
+
 <BR/>
 
 * __[COMMON ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Common-Elements-3-Array.cpp)__
@@ -49,6 +53,7 @@
            n3 = 8; C = {3, 4, 15, 20, 30, 70, 80, 120}
     Output: 20 80
     ```
+    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/common-elements1132/1)__
 
 <BR/>
 
@@ -61,6 +66,8 @@
             arr[] = {1, 5, 7, 1}
     Output: 2
     ```
+
+    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1)__
 <BR/>
 
 * __[FND THE DUPLICATE NUMBER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Duplicate-Element(Only-One).cpp)__
@@ -72,6 +79,19 @@
     ```CPP
     Input: n = [1, 3, 4, 2, 2]
     Output: 2
+    ```
+
+    __[Leetcode](https://leetcode.com/problems/find-the-duplicate-number/)__
+
+<BR/>
+
+* __[COUNT INVERSIONS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/CountInversions.js)__
+
+    Find the count where arr[i] > arr[j] && i < j.
+
+    ```CPP
+    Input:  arr = [5, 4, 3, 2, 1]
+    Output: 10
     ```
 <BR/>
 
@@ -127,6 +147,25 @@
             arr = 90 70 20 80 50
     Output: -1
     ```
+<BR/>
+
+* __[FIRST NEGATIVE INTEGER IN EVERY WINDOW OF SIZE K](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/First-Negative-Integer-In-Every-Window-Of-Size-K.cpp)__
+
+    Given an array A[] of size N and a positive integer K, find the first negative integer for each and every window(contiguous subarray) of size K.
+
+    ```CPP
+    Input:  N = 5
+            A[] = {-8, 2, 3, -6, 10}
+            K = 2
+    Output: -8 0 -6 -6
+
+    Input:  N = 8
+            A[] = {12, -1, -7, 8, -15, 30, 16, 28}
+            K = 3
+    Output: -1 -1 -7 -15 -15 0 
+    ```
+
+    __[Geeks for Geeks](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1)__
 <BR/>
 
 * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__

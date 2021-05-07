@@ -1,23 +1,23 @@
 function mergeArray(arr, start, mid, end) {
-  let index1 = mid - start + 1;
-  let index2 = end - mid;
+  let length1 = mid - start + 1;
+  let length2 = end - mid;
 
   let leftSubarray = [];
   let rightSubarray = [];
 
-  for (let i=0; i<index1; i++)
+  for (let i=0; i<length1; i++)
     leftSubarray.push(arr[start + i]);
 
-  for (let i=0; i<index2; i++)
+  for (let i=0; i<length2; i++)
     rightSubarray.push(arr[mid + 1 + i]);
 
   let i=0, j=0, currIndex = start;
   let inversions = 0;
 
-  while (i < index1 && j < index2) {
+  while (i < length1 && j < length2) {
     if (leftSubarray[i] > rightSubarray[j]) {
       arr[currIndex] = rightSubarray[j];
-      inversions = inversions + index1 - i;
+      inversions = inversions + length1 - i;
       j++;
     }
     else {
@@ -27,8 +27,8 @@ function mergeArray(arr, start, mid, end) {
     currIndex++;
   }
 
-  while (i < index1) arr[currIndex++] = leftSubarray[i++]
-  while (j < index2) arr[currIndex++] = rightSubarray[j++]
+  while (i < length1) arr[currIndex++] = leftSubarray[i++]
+  while (j < length2) arr[currIndex++] = rightSubarray[j++]
 
   return inversions;
 }

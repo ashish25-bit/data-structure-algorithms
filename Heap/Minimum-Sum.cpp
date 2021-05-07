@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // takes 2 strings which are actually numbers add them and returns the string 
 string findSum(string str1, string str2) {
     int n1 = str1.length();
@@ -66,4 +69,13 @@ string solve(int arr[], int n) {
     }
     
     return findSum(num1, num2);
+}
+
+int main() {
+    int n = 6;
+    int a[n] = {6, 8, 4, 2, 5, 3};
+
+    cout << solve(a, n);
+    
+    return 0;
 }

@@ -1,8 +1,11 @@
-// STRUCTURE DEFINITION
-// struct Job {
-//     int dead;
-//     int profit;
-// };
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Job {
+    int job_id;
+    int dead;
+    int profit;
+};
 
 bool comparator(Job a, Job b) {
     return (a.profit > b.profit);
@@ -37,4 +40,27 @@ pair<int,int> JobScheduling(Job arr[], int n) {
     ans.second = sum;
     
     return ans;
-} 
+}
+
+int main() {
+    // int n = 4;
+    // vector<int> deadline = {4, 1, 1, 1};
+    // vector<int> profit =  {20, 10, 40, 30};
+
+    int n = 5;
+    vector<int> deadline = {2, 1, 2, 1, 1};
+    vector<int> profit =  {100, 19, 27, 25, 15};
+
+    Job arr[n];
+
+    for (int i=0; i < n; i++) {
+        arr[i].job_id = i+1;
+        arr[i].dead = deadline[i];
+        arr[i].profit = profit[i];
+    }
+
+    pair<int, int> res = JobScheduling(arr, n);
+    cout << res.first << " " << res.second;
+    
+    return 0;
+}
