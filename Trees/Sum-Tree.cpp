@@ -20,17 +20,6 @@ void printArray(vector<int> arr) {
     cout << endl;
 }
 
-vector<int> inputArray(int n) {
-    int temp;
-    vector<int> arr;
-    cout << "Enter " << n << " values for array:\n";
-    for (int i=0; i<n; i++) {
-        cin >> temp;
-        arr.push_back(temp);
-   }
-   return arr;
-}
-
 vector<int> levelOrder(Node *node) {
     vector<int> res;
 
@@ -67,12 +56,7 @@ int sumTree(Node *root) {
 }
 
 int main() {
-    int n;
-
-    cout << "Enter the value of n\t";
-    cin >> n;
-
-    vector<int> vec = inputArray(n);
+    vector<int> vec = {10, -2, 6, 8, -4, 7, 5};
     Node* root = nullptr;
 
     /*
