@@ -66,7 +66,7 @@ Node* insert(Node* root, int key) {
   
   else return root;
 
-  root->height = root->height + 1;
+  root->height = 1 + max(height(root->left), height(root->right));
 
   int diff = getdiff(root);
 
@@ -93,24 +93,108 @@ Node* insert(Node* root, int key) {
   return root;
 }
 
-void  preOrder(Node* root) {
+void  preOrder(Node* root, int &n, string str = "root") {
   if (!root) return;
 
-  cout << root->data << " ";
-  preOrder(root->left);
-  preOrder(root->right);
+  n++;
+  cout << str << ": " << root->data << "\n";
+  preOrder(root->left, n, str + " left");
+  preOrder(root->right, n, str + " right");
+}
+
+Node* deleteNode(Node* root, int key) {
+  if (!root) return root;
+
+  if (root->data > key) {
+    root->left = deleteNode(root->left, key);
+    return root;
+  }
+  else if (root->data < key) {
+    root->right = deleteNode(root->right, key);
+    return root;
+  }
+
+  // leaf node
+  if (!root->left && !root->right) {
+    delete(root);
+    return NULL;
+  }
+
+  // only left child
+  if (root->left && !root->right) {
+    Node* left = root->left;
+    delete(root);
+    return left;
+  }
+
+  // only right child
+  if (root->right && !root->left) {
+    Node* right = root->right;
+    delete(root);
+    return right;
+  }
+
+
+  // both left and right children are present
+  Node* minValue = root->right;
+
+  while (minValue->left)
+    minValue = minValue->left;
+
+  root->data = minValue->data;
+  root->right = deleteNode(root->right, minValue->data);
+
+  // balancing the tree
+  if (!root) return root;
+
+  root->height = 1 + max(height(root->left), height(root->right));
+
+  int diff = getdiff(root);
+
+  // left left
+  if (diff > 1 && getdiff(root->left) >= 0)
+    return rightRotate(root);
+
+  // right right
+  if (diff < -1 && getdiff(root->right) <= 0)
+    return leftRotate(root);
+
+  // left right
+  if (diff > 1 && getdiff(root->left) < 0) {
+    root->left = leftRotate(root->left);
+    return rightRotate(root);
+  }
+
+  // right left
+  if (diff < -1 && getdiff(root->right) > 0) {
+    root->right = rightRotate(root->right);
+    return leftRotate(root);
+  }
+
+  return root;
 }
 
 int main() {
-  vector<int> arr = {1, 2, 3, 4, 5};
+  vector<int> arr = {14, 11, 19, 7, 12, 17, 53, 4, 8, 13, 16, 20, 60};
   Node* root = NULL;
 
-  for (int x: arr) {
+  for (int x: arr)
     root = insert(root, x);
-    preOrder(root);
-    cout << endl;
-  }
   
+  int n = 0;
+  preOrder(root, n);
+  cout << "Total Node: " << n << "\n\n";
+
+  // delete data from avl tree
+  vector<int> dn = {8, 7, 11, 14, 17};
+
+  for (int key: dn) {
+    root = deleteNode(root, key);
+    cout << "DELETED NODE " << key << "\n";
+    int n = 0;
+    preOrder(root, n);
+    cout << "Total Node: " << n << "\n\n";
+  }
 
   return 0;
 }
