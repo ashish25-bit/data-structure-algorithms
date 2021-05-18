@@ -201,6 +201,27 @@
 
 <BR/>
 
+* __[CHECK MIRROR IN N-ARY TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Check-Mirror-In-N-Ary-Tree.cpp)__
+
+    Given two n-ary trees. Check if they are mirror images of each other or not. You are also given e denoting the number of edges in both trees, and two arrays, A[] and B[]. Each array has 2*e space separated values u,v denoting an edge from u to v for the both trees.
+
+    ```CPP
+    Input: 5 4
+           1 2 1 3 2 4 2 5
+           1 3 1 2 2 4 2 5
+
+    Output: 0
+    
+    Input: 5 4
+           1 2 1 3 2 4 2 5
+           1 3 1 2 2 5 2 4
+
+    Output: 1
+    ```
+
+
+<BR/>
+
 * __[DUPLICATE SUBTREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Duplicate-Subtree.cpp)__
 
     Given a binary tree, find out whether it contains a duplicate sub-tree of size two or more, or not.

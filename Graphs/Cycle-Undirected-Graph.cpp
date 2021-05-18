@@ -42,7 +42,9 @@ int main() {
 		{1, 1, 0, 1, 0}
 	};
 
-	cout << isCycle(5, arr);
+	int n = sizeof(arr) / sizeof(arr[0]);
+
+	cout << isCycle(n, arr);
 	
 	return 0;
 }
