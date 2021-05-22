@@ -13,3 +13,14 @@
     ```CPP
     ```
 <BR/>
+
+* __[FIND MEDIAN IN A STREAM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Heap/Find-Median-In-A-Stream.cpp)__
+   
+   Given an input stream of N integers. The task is to insert these numbers into a new stream and find the median of the stream formed by each insertion of X to the new stream.
+
+   ```CPP
+      Input : N = 4
+              X[] = 5, 15, 1, 3
+      Output: 5 10 5 4
+   ```
+<BR/>
