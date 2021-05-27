@@ -282,6 +282,18 @@
 
 <BR/>
 
+* __[POPULATE INORDER SUCCESSOR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Populate-Inorder-Successor.cc)__
+
+    Given a Binary Tree, write a function to populate next pointer for all nodes. The next pointer for every node should be set to point to inorder successor. 
+    ###### NOTE: IN THIS SOLUTION THE NODES WILL BE INSERTED IN LEVEL ORDER FASHION
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/BSTSearch.png)
+    ```CPP
+    Output: 1->3 3->4 4->6 6->7 7->8 8 10-> 10->13 14->-1
+    ```
+
+<BR/>
+
 * __[PRINT TREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/PrintTree.js)__
 
     ```CPP
