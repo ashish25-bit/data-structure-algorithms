@@ -9,7 +9,14 @@
     3. getMin()
        3
     
+<BR/>
+
+* __[VALID SUBSTRING](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Stack/Valid-Substring.cc)__
+
+   Given a string S consisting only of opening and closing parenthesis 'ie '('  and ')', find out the length of the longest valid(well-formed) parentheses substring.
     
-    ```CPP
-    ```
+   ```CPP  
+      Input : ()(())(
+      Output: 6
+   ```
 <BR/>
