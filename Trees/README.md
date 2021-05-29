@@ -222,6 +222,24 @@
 
 <BR/>
 
+* __[DEAD END](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Dead-End.cc)__
+
+   Given a Binary search Tree that contains positive integer values greater then 0. The task is to complete the function isDeadEnd which returns true if the BST contains a dead end else returns false. Here Dead End means, we are not able to insert any element after that node.
+
+    ```CPP
+    Input: 
+                8
+              /   \
+             5     9
+           /  \
+          2    7
+         /
+        1
+
+    Output: 1
+    ```
+<BR/>
+
 * __[DUPLICATE SUBTREE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Duplicate-Subtree.cpp)__
 
     Given a binary tree, find out whether it contains a duplicate sub-tree of size two or more, or not.
@@ -248,6 +266,18 @@
         10   10
 
     Output: 0
+    ```
+
+<BR/>
+
+* __[FLATTEN BST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Flatten-BST.cc)__
+
+   Given a binary search tree, the task is to flatten it to a sorted list. Precisely, the value of each node must be lesser than the values of all the nodes at its right, and its left node must be NULL after flattening.
+
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/BSTSearch.png)
+
+    ```CPP
+    Output: 1 3 4 6 7 8 10 13 14
     ```
 
 <BR/>
