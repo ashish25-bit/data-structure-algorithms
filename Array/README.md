@@ -212,6 +212,16 @@
     ```
 <BR/>
 
+* __[MAX VALUE ARRAY ROTATION](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Max-Value-Array-Rotation.cc)__
+
+    Given an array(0-based indexing), you have to find the max sum of i*A[i] where A[i] is the element at index i in the array. The only operation allowed is to rotate(clock-wise or counter clock-wise) the array any number of times.
+
+    ```CPP
+    Input: arr = 8 3 1 2
+    Output: 29
+    ```
+<BR/>
+
 * __[MAXIMUM SUBARRAY PRODUCT](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Product-Subarray.js)__
 
     Given an array arr that contains n integers (may be positive, negative or zero). Find the product of the maximum product subarray.
