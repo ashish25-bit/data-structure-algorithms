@@ -297,6 +297,19 @@
 
 <BR/>
 
+* __[LCA BST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/LCA-BST.cc)__
+
+    Given a __BINARY SEARCH TREE__ find the lowest common ancestor of the given 2 number (a and b).
+    ![Tree](https://media.geeksforgeeks.org/wp-content/uploads/shortestdistancebetweennodes.png)
+
+    ```CPP
+    Input: a = 2 b = 21
+    Output: 5
+    ```
+
+<BR/>
+
+
 * __[MIRROR](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Trees/Mirror.cpp)__
 
     Given a binary tree, the task is to create a new binary tree which is a mirror image of the given binary tree.
