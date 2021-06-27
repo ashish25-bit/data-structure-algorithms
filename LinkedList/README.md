@@ -132,6 +132,20 @@
     ```
 <BR/>
 
+
+* __[REARRANGE NODES](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Rearrange-Nodes.cc)__
+    Given a singly linked list, the task is to rearrange it in a way that all odd position nodes are together and all even positions node are together.
+
+    Expected Time Complexity: O(N).
+    Expected Auxiliary Space: O(1).
+
+
+    ```CPP
+    Input:  1->2->3->4->5->NULL
+    Output: 1->3->5->2->4->NULL
+    ```
+<BR/>
+
 * __[REMOVE DUPLICATES FROM A SORTED LIST](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/LinkedList/Remove-Duplicates-Sorted-Linked-List.cpp)__
     
     ```CPP
