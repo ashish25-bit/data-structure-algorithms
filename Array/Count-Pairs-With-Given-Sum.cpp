@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -19,23 +21,23 @@ vector<int> inputArray(int n) {
 }
 
 int getPairsCount(vector<int> arr, int k) {
-        unordered_map<int, int> hashMap;
-        int n = arr.size();
+    unordered_map<int, int> hashMap;
+    int n = arr.size();
 
-        for (int i=0; i<n; i++)
-            hashMap[arr[i]]++;
+    for (int i=0; i<n; i++)
+        hashMap[arr[i]]++;
 
-        int count = 0;
+    int count = 0;
 
-        for (int i=0; i<n; i++) {
-            count = count + hashMap[k - arr[i]];
+    for (int i=0; i<n; i++) {
+        count = count + hashMap[k - arr[i]];
 
-            if (k - arr[i] == arr[i])
-                count--;
-        }
-
-        return count/2;
+        if (k - arr[i] == arr[i])
+            count--;
     }
+
+    return count/2;
+}
 
 int main() {
     int n, k;

@@ -3,6 +3,8 @@
 
 // Input : arr[ ] = {2, 1, 5, 6, 3} and K = 3
 // Output : 1
+
+// https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -40,6 +40,8 @@ vector<int> reverseNums(vector<int> a, int i, int j) {
 vector<int> nextPermutation(vector<int> nums) {
 
     // find the largest index(mark) where arr[i-1] < arr[i]
+    // or
+    // find the largest index(mark) where the curr element is greater than it's previous element
     int mark = -1;
     for (int i = nums.size() - 1; i > 0; i--) {
         if (nums[i] > nums[i - 1]) {
