@@ -1,9 +1,44 @@
+// https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#
+
 #include <bits/stdc++.h>
 using namespace std;
 
 void printArray(vector<int> arr) {
   for (int x: arr) cout << x << " ";
   cout << endl;
+}
+
+// algo same approach different
+vector<int> nextLargerElement(vector<int> arr, int n) {
+  vector<int> res(n);
+  stack<int> s;
+  
+  res[n-1] = -1;
+  s.push(n-1);
+  
+  for (int i=n-2; i >= 0; i--) {
+    if (s.empty()) {
+      res[i] = -1;
+      s.push(i);
+      continue;
+    }
+
+    if (arr[s.top()] <= arr[i]) {
+      while (!s.empty() && arr[s.top()] <= arr[i]) s.pop();
+
+      res[i] = s.empty() ? -1 : s.top();
+    }
+    else
+      res[i] = s.top();
+
+    if (i > 0 && arr[i] >= arr[i-1]) s.push(i);
+  }
+
+  for (int i=0; i < n; i++) {
+      if (res[i] == -1) continue;
+      res[i] = arr[res[i]];
+  }
+  return res;
 }
 
 int main() {
