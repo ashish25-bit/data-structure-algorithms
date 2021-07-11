@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/0/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,6 +58,34 @@ void postorderIterative(Node* node) {
         s2.pop();
     }
 }
+
+// another iterative method
+// void postOrder(Node* root) {
+//   stack<Node*> st;
+//   unordered_set<Node*> visited;
+
+//   st.push(root);
+
+//   while (!st.empty()) {
+//     Node* curr = st.top();
+//     bool child = false;
+
+//     if (curr->right && visited.find(curr->right) == visited.end()) {
+//       child = true;
+//       st.push(curr->right);
+//     }
+//     if (curr->left && visited.find(curr->left) == visited.end()) {
+//       child = true;
+//       st.push(curr->left);
+//     }
+
+//     if (!child) {
+//       cout << curr->data << " ";
+//       visited.insert(curr);
+//       st.pop();
+//     }
+//   }
+// }
 
 int main() {
     int n;

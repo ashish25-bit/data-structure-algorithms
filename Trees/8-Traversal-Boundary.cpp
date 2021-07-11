@@ -1,3 +1,8 @@
+// https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
+
+#include <bits/stdc++.h>
+using namespace std;
+
 void leftBoundary(Node *root, vector<int> &res) {
     if (!root)
         return;
@@ -52,4 +57,9 @@ vector <int> printBoundary(Node *root) {
     rightBoundary(root->right, res);
     
     return res;
+}
+
+int main() {
+    
+    return 0;
 }

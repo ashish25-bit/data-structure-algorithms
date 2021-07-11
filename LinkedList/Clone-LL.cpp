@@ -1,3 +1,8 @@
+// https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
+
+#include <bits/stdc++.h>
+using namespace std;
+
 struct Node {
     int data;
     Node *next;
@@ -10,44 +15,92 @@ struct Node {
     }
 };
 
+// space complexity: O(N)
+// Node *copyList(Node *head) {
+//     unordered_map<Node*, Node*> hashMap;
+//     Node* temp = head;
+//     Node* newHead = NULL;
+
+//     while (temp) {
+//         Node* newNode = new Node(temp->data);
+
+//         if (!newHead)
+//             newHead = newNode;
+
+//         hashMap[temp] = newNode;
+//         temp = temp->next;
+//     }
+
+//     temp = head;
+//     while (temp) {
+//         if (temp->next) {
+//             hashMap[temp]->next = hashMap[temp->next];
+//         }
+//         if (temp->arb) {
+//             hashMap[temp]->arb = hashMap[temp->arb];
+//         }
+//         temp = temp->next;
+//     }
+
+//     return newHead;
+// }
+
+// space complexity: O(1)
 Node *copyList(Node *head) {
-    Node* newHead = new Node(head->data);
-    Node* temp = head->next;
-    Node* prev = newHead;
-    
-    while (temp) {
-        Node* newNode = new Node(temp->data);
-        prev->next = newNode;
-        prev = newNode;
-        temp = temp->next;
+    Node* node = head;
+    Node* newHead = NULL;
+
+    while (node) {
+        Node* newNode = new Node(node->data);
+
+        if (!newHead) {
+            newHead = newNode;    
+        }
+
+        Node* temp = node->next;
+        node->next = newNode;
+        newNode->next = temp;
+
+        node = temp;
     }
-    
-    temp = head;
-    prev = newHead;
-    
-    while (temp && prev) {
-        head = head->next;
-        prev->arb = temp;
-        temp->next = prev;
-        temp = head;
-        prev = prev->next;
+
+    node = head;
+    while (node) {
+        if (node->arb) {
+            node->next->arb = node->arb->next;
+        }
+        node = node->next->next;
     }
-    
-    temp = newHead;
-    while (temp) {
-        if (temp->arb->arb)
-            temp->arb = temp->arb->arb->next;
-        else temp->arb = NULL;
-        temp = temp->next;
+
+    node = head;
+    while (node) {
+        Node* temp = node->next->next;
+        node->next->next = temp ? temp->next : NULL;
+        node->next = temp;
+        node = temp;
     }
-    
-    temp = newHead;
-    while (temp) {
-        cout << "Data: " << temp->data << " Random: ";
-        if (temp->arb) cout << temp->arb->data << endl;
-        else cout << "-1\n";
-        temp = temp->next;
-    }
-    
+
     return newHead;
+}
+
+
+
+int main() {
+    Node* root = new Node(1);
+
+    Node* newNode1 = new Node(2);
+    Node* newNode2 = new Node(3);
+    Node* newNode3 = new Node(4);
+
+    root->next = newNode1;
+    newNode1->next = newNode2;
+    newNode2->next = newNode3;
+
+    root->arb = newNode1;
+    newNode1->arb = newNode3;
+
+    Node* newRoot = copyList(root);
+    print(newRoot);
+
+    return 0;
 }
