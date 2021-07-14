@@ -9,8 +9,8 @@ using namespace std;
 
 //   if (n > w || cost[n-1] == -1)
 //     return minimumCostUtil(cost, n - 1, w);
-  
-//   int include  = cost[n-1] + minimumCostUtil(cost, n-1, w - n + 1);
+
+//   int include  = cost[n-1] + minimumCostUtil(cost, n, w - n);
 //   int _include = minimumCostUtil(cost, n-1, w);
 
 //   return min(_include, include);

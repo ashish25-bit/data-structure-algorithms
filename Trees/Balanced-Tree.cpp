@@ -45,7 +45,7 @@ bool isBalancedUtil(Node* root, int &height) {
     bool leftStatus  = isBalancedUtil(root->left, leftHeight);
     bool rightStatus = isBalancedUtil(root->right, rightHeight);
 
-    height = (leftHeight ? rightHeight : leftHeight : rightHeight) + 1;
+    height = (leftHeight >= rightHeight ? leftHeight : rightHeight) + 1;
 
     if (abs(rightHeight - leftHeight) >= 2)
         return false;

@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -38,7 +40,8 @@ int main() {
   vector<vector<int>> data = {
     {1, 6, 11, 5},
     {1, 5, 11, 5},
-    {1, 2, 7}
+    {1, 2, 7},
+    {23}
   };
 
   for (vector<int> arr: data) {

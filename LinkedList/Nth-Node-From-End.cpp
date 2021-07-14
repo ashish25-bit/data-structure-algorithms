@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+
 int getNthFromLast(Node *head, int n) {
     int count = 1;
     Node *pointer1 = head;

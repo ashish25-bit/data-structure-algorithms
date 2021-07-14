@@ -16,20 +16,6 @@
 * __[LONGEST ROUTE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Longest-Route.cpp)__
 <br>
 
-* __[MINIMUM SUBSET DIFF](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Minimum-Subset-Diff.cpp)__
-    Given an array, find two subsets such that the difference between the sum of these 2 arrays is minimum.
-
-    ```CPP
-    Input  : {1, 6, 11, 5}
-             
-    Output : 1
-    subset 1: 1 + 6 + 5 = 12
-    subset 2: 11 = 11
-
-    abs(12 - 11) = 1
-    ```
-<br>
-
 * __[PARTITION EQUAL SUM SUBSET](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Backtracking/Partition-Equal-Subset-Sum.js)__
 <br>
 
