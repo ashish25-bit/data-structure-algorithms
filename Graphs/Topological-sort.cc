@@ -1,5 +1,11 @@
 // https://practice.geeksforgeeks.org/problems/topological-sort/1
 
+/**
+ * Only for Directed acyclic graph
+ * For a edge u->v, u should come before v
+ * Can contain more than one ordering
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -54,6 +60,7 @@ using namespace std;
 //   return res;
 // }
 
+// DFS type algo
 void topoSortUtil(vector<vector<int>> &adj, int curr, vector<bool> &visited, vector<int> &res) {
   visited[curr] = true;
 
@@ -79,6 +86,9 @@ vector<int> topoSort(int V, vector<vector<int>> &adj) {
   reverse(res.begin(), res.end());
   return res;
 }
+
+// kahn's algorithm (BFS)
+
 
 int main() {
   // vector<vector<int>> adj = {
