@@ -13,7 +13,7 @@ vector<int> prev(vector<int> arr) {
   int mark = -1;
   int n = arr.size();
 
-  // find the largest index(mark) where arr[i-1] < arr[i]
+  // find the largest index(mark) where arr[i-1] > arr[i]
   // or
   // find the largest index (mark) where the curr element is less than it's previous element
   for (int i = n-1; i > 0 ; i--) {
