@@ -33,6 +33,10 @@ long long calc(int i, int j, vector<vector<long long>> arr) {
   return ans;
 }
 
+/**
+ * if you are on the current key
+ * go up in all valid directions and add the result of the valid neighbouring boxes and the value of the current box.
+ */
 long long countUtil(vector<vector<long long>> &arr) {
   vector<vector<long long>> t = arr;
   long long ans = 0;
@@ -53,6 +57,7 @@ long long countUtil(vector<vector<long long>> &arr) {
 long long count(int n) {
   if (n == 1) return 10;
 
+  // initializing here by one because we are returning 10 when n == 1
   vector<vector<long long>> t(R, vector<long long>(C, 1));
   t[R-1][0] = -1;
   t[R-1][C-1] = -1;
@@ -115,7 +120,7 @@ long long count(int n) {
 // }
 
 int main() {
-  int n = 25;
+  int n = 2;
 
   cout << count(n);
   return 0;
