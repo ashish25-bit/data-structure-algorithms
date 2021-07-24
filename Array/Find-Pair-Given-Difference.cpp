@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/find-pair-given-difference1559/1#
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX(a, b) (a > b ? a : b)

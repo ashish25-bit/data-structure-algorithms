@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
+
 function mergeArray(arr, start, mid, end) {
   let length1 = mid - start + 1;
   let length2 = end - mid;

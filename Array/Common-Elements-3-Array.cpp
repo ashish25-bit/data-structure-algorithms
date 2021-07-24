@@ -1,3 +1,4 @@
+// https://practice.geeksforgeeks.org/problems/common-elements1132/1
 /**
  * Input: 
  1, 5, 10, 20, 20, 40, 80
