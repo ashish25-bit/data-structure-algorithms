@@ -1,100 +1,3 @@
-* __[BEST TIME TO SEL STOCK](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Best-Time-To-Sell-Stock.cpp)__
-
-    Say you have an array for which the ith element is the price of a given stock on day i.
-
-    If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
-
-    Note that you cannot sell a stock before you buy one.
-    n: Number of days
-    arr: Price at each day
-
-    ```CPP
-    Input: n = 6
-           arr = 7 6 5 4 2 1
-    Output: Max Profit: 0
-
-    Input: n = 3
-           arr = 2 4 1
-    Output: Max Profit: 2
-
-    Input: n = 6
-           arr = 7 1 5 3 6 4
-    Output: Max Profit: 5
-    ```
-
-    __[Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)__
-
-<BR/>
-
-* __[CHOCOLATE DISTRIBUTION PROBLEM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Chocolate-Distribution-Problem.cpp)__
-
-    Given an array A of positive integers of size N, where each value represents number of chocolates in a packet. Each packet can have variable number of chocolates. There are M students, the task is to distribute chocolate packets such that :
-    * Each student gets one packet.
-    * The difference between the number of chocolates given to the students having packet with maximum chocolates and student having packet with minimum chocolates is minimum.
-    ###### NOTE: Time Complexity: m + n * log n
-
-    ```CPP
-    Input:  n = 8, m = 5
-            A[] = 3 4 1 9 56 7 9 12
-    Output: 6
-    ```
-
-    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1)__
-
-<BR/>
-
-* __[COMMON ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Common-Elements-3-Array.cpp)__
-
-    Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
-
-    ```CPP
-    Input: n1 = 6; A = {1, 5, 10, 20, 40, 80}
-           n2 = 5; B = {6, 7, 20, 80, 100}
-           n3 = 8; C = {3, 4, 15, 20, 30, 70, 80, 120}
-    Output: 20 80
-    ```
-    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/common-elements1132/1)__
-
-<BR/>
-
-* __[COUNT PAIRS WITH GIVEN SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Count-Pairs-With-Given-Sum.cpp)__
-
-    Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose sum is equal to K.
-
-    ```CPP
-    Input:  N = 4, K = 6
-            arr[] = {1, 5, 7, 1}
-    Output: 2
-    ```
-
-    __[Geeks For Geeks](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1)__
-<BR/>
-
-* __[FND THE DUPLICATE NUMBER](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Duplicate-Element(Only-One).cpp)__
-
-    Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
-
-    There is __only one duplicate__ number in nums, return this duplicate number.
-
-    ```CPP
-    Input: n = [1, 3, 4, 2, 2]
-    Output: 2
-    ```
-
-    __[Leetcode](https://leetcode.com/problems/find-the-duplicate-number/)__
-
-<BR/>
-
-* __[COUNT INVERSIONS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/CountInversions.js)__
-
-    Find the count where arr[i] > arr[j] && i < j.
-
-    ```CPP
-    Input:  arr = [5, 4, 3, 2, 1]
-    Output: 10
-    ```
-<BR/>
-
 * __[FND MEDIAN OF 2 SORTED ARRAY OF EQUAL SIZE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Median-2-Sorted-Array-Equal-Size.cpp)__
 
     Given 2 sorted arrays of size n. Find the median.
@@ -132,40 +35,6 @@
             arr[] = 90 100 78 89 67
     Output: 89
     ```
-<BR/>
-
-* __[FIND PAIR WITH GIVEN DIFFERENCE](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Find-Pair-Given-Difference.cpp)__
-
-    Given an unsorted array arr[] and a number n. You need to write a program to find if there exists a pair of elements in the array whose difference is k.
-
-    ```CPP
-    Input:  n = 6 k = 78
-            arr = 5 20 3 2 5 80
-    Output: 1
-
-    Input:  n = 5 k = 45
-            arr = 90 70 20 80 50
-    Output: -1
-    ```
-<BR/>
-
-* __[FIRST NEGATIVE INTEGER IN EVERY WINDOW OF SIZE K](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/First-Negative-Integer-In-Every-Window-Of-Size-K.cpp)__
-
-    Given an array A[] of size N and a positive integer K, find the first negative integer for each and every window(contiguous subarray) of size K.
-
-    ```CPP
-    Input:  N = 5
-            A[] = {-8, 2, 3, -6, 10}
-            K = 2
-    Output: -8 0 -6 -6
-
-    Input:  N = 8
-            A[] = {12, -1, -7, 8, -15, 30, 16, 28}
-            K = 3
-    Output: -1 -1 -7 -15 -15 0 
-    ```
-
-    __[Geeks for Geeks](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1)__
 <BR/>
 
 * __[FREQUENCIES OF LIMITED RANGE ARRAY ELEMENTS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Frequencies-Of-Limited-Range-Array-Elements.cpp)__
@@ -234,21 +103,6 @@
     Input: n = 5
            arr = 6 -3 -10 0 2
     Output: 180
-    ```
-<BR/>
-
-* __[MAXIMUM SUBARRAY SUM](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Maximum-Subarray-Sum.cpp)__
-
-    Given an array arr of n integers. Find the contiguous sub-array with maximum sum.
-
-    ```CPP
-    Input: n = 5
-           arr = { 1 2 3 -2 5 }
-    Output: 9
-
-    Input: n = 4
-           arr = { -1 -2 -3 -4 }
-    Output: -1
     ```
 <BR/>
 
@@ -398,17 +252,6 @@
     ```
 <BR/>
 
-* __[STICKLER THIEF](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Stickler-Thief.cpp)__  
-
-    Stickler the thief wants to loot money from a society having n houses in a single line. He is a weird person and follows a certain rule when looting the houses. According to the rule, he will never loot two consecutive houses. At the same time, he wants to maximize the amount he loots. The thief knows which house has what amount of money but is unable to come up with an optimal looting strategy. He asks for your help to find the maximum money he can get if he strictly follows the rule. Each house has a[i] amount of money present in it.
-
-    ```CPP
-    Input  : n = 6
-             a = {5 5 10 100 10 5}
-    Output : 110
-    ```
-<BR/>
-
 * __[SUBARRAY SUM EQUALS ZERO](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Subarray-Sum-Zero.cpp)__
 
     Given an array arr[] of n positive and negative numbers. Find if there is a subarray (of size at-least one) with 0 sum.
@@ -448,20 +291,6 @@
     Input:  N = 3
             arr[] = {1, 2, 3}
     Output : 20
-    ```
-
-<BR/>
-
-* __[SUM OF ALL SUBSETS](https://github.com/ashish25-bit/data-structure-algorithms/blob/master/Array/Sum-All-Subsets.cpp)__
-
-    Given an array of integers, print sums of all subsets in it. Output sums can be printed in any order.
-    
-    ###### NOTE: Space Complexity: O(N)
-
-    ```CPP
-    Input:  N = 3
-            arr[] = {2, 4, 5}
-    Output : 0 2 4 5 6 7 9 11
     ```
 
 <BR/>

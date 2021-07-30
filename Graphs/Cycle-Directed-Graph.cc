@@ -34,10 +34,10 @@ bool isCycle(int V, vector<vector<int>> adj) {
 
 int main() {
   vector<vector<int>> adj = {
-    {0, 1},
-    {1, 2},
-    {2, 3},
-    {3, 3}
+    {1},
+    {2},
+    {3},
+    {3}
   };
 
   int V = 4;
